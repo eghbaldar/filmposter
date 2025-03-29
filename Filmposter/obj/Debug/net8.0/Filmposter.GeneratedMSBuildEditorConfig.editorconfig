@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2luZ2xlTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/_PROJECT_/FilmPoster/Filmposter/Components/Pages/Admin/AdminNationFilmPosters.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbk5hdGlvbkZpbG1Qb3N0ZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/_PROJECT_/FilmPoster/Filmposter/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

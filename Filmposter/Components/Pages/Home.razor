@@ -1,10 +1,9 @@
-﻿
-@page "/"
+﻿@page "/"
 
 <PageTitle>Home</PageTitle>
 
 @inject HttpClient Http
-@if (forecasts == null)
+@if (modelHome.ResultNationFilmPostersServiceDto.Result == null || modelHome.ResultNationFilmPostersServiceDto == null)
 {
     <p>Loading...</p>
 }
@@ -19,29 +18,24 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var poster in modelHome.ResultNationFilmPostersServiceDto.Result)
             {
                 <tr>
-                    <td>@forecast.Date.ToString("yyyy-MM-dd")</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.Summary</td>
+                    <td>@poster.Director</td>
                 </tr>
             }
         </tbody>
     </table>
 }
-@code {
-    private WeatherForecast[]? forecasts;
 
+@using FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilmPosters
+@using Filmposter.Model;
+@code {
+    ModelHome modelHome = new ModelHome();
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        modelHome.ResultNationFilmPostersServiceDto = new ResultGetNationFilmPostersServiceDto();
+        modelHome.ResultNationFilmPostersServiceDto = await Http.GetFromJsonAsync<ResultGetNationFilmPostersServiceDto>("/api/NationFilmPosters");
     }
 
-    public class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
-        public int TemperatureC { get; set; }
-        public string? Summary { get; set; }
-    }
 }

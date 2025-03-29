@@ -23,6 +23,7 @@ else
     throw new Exception("Unknown environment: " + environment);
 }
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiBaseUrl) });
+// End of API settings
 
 var app = builder.Build();
 
