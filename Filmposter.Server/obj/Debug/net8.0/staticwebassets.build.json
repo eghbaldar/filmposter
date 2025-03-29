@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BqFYXKfCYP/YhmLNkDhQUPqJdUAR3JMnmsC1QtubJPA=",
+  "Source": "Filmposter.Server",
+  "BasePath": "_content/Filmposter.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
