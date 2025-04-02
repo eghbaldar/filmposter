@@ -1,0 +1,2237 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\KingSelector.min.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\KingSelector.min.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\KingSelector2.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\KingSelector2.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\KingSelector2.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\KingSelector2.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\sellect.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\sellect.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\sellect.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\sellect.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.bower.json",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.bower.json"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.gitignore",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.gitignore"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.npmignore",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\.npmignore"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\bower.json",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\bower.json"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.css.map",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.css.map"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\fontawesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-dark.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-dark.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-default.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-default.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-latoja.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-latoja.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-lightorang.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-lightorang.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-melon.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\persianDatepicker-melon.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\prism.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\prism.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\style.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\style.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\css\\vertical-responsive-menu.min.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\css\\vertical-responsive-menu.min.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\ajaxmin.bat",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\ajaxmin.bat"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\angular.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\angular.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\farvardin.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\farvardin.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\jquery-1.10.1.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\jquery-1.10.1.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\persianDatepicker.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\persianDatepicker.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\persianDatepicker.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\persianDatepicker.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\prism.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\prism.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\prism.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\prism.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\datapicker\\js\\vertical-responsive-menu.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\datapicker\\js\\vertical-responsive-menu.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\fileExtensionSize\\fileExtensionSize.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\fileExtensionSize\\fileExtensionSize.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\general\\general.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\general\\general.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\general\\general.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\general\\general.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\general\\kingValidateInput.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\general\\kingValidateInput.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\kingLoadingBox\\kingLoadingBox.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\kingLoadingBox\\kingLoadingBox.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\kingResponsive\\kingResponsiveTable.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\kingResponsive\\kingResponsiveTable.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\kingSweetAlert\\kingSweetAlert.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\kingSweetAlert\\kingSweetAlert.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\lightbox\\lightbox.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\lightbox\\lightbox.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\lightbox\\lightbox.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\lightbox\\lightbox.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\password\\password.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\password\\password.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\password\\password.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\password\\password.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\puzzlecaptcha\\puzzlecaptcha.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\puzzlecaptcha\\puzzlecaptcha.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\puzzlecaptcha\\puzzlecaptcha.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\puzzlecaptcha\\puzzlecaptcha.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\remainingCharacters\\remainingCharacters.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\remainingCharacters\\remainingCharacters.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\remainingCharacters\\remainingCharacters.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\remainingCharacters\\remainingCharacters.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\sweetalert\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\sweetalert\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\sweetalert\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\sweetalert\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\sweetalert\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\sweetalert\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\tabNavigation\\tab.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\tabNavigation\\tab.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\tabNavigation\\tab.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\tabNavigation\\tab.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\LICENSE.md",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\README.md",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\README.md"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\img.svg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\img.svg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\waitMe.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\waitMe.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\waitMe.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\waitMe.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\waitMe.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\waitMe.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\waitMe\\waitMeKing.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\common\\waitMe\\waitMeKing.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\anjpink-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\anjpink-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\anjpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\anjpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\avpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\avpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\behpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\behpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\danpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\danpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\hilpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\hilpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\iran.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\iran.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\irpink-gerd.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\irpink-gerd.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\kalapink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\kalapink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\lalezar.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\lalezar.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\mahboubehpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\mahboubehpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\nahid.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\nahid.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\negaar-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\negaar-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\negaar.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\negaar.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\nic.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\nic.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinksans.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinksans.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinksansdn.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinksansdn.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinkyekan-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinkyekan-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinkyekan.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\pinkyekan.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sahel-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sahel-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sahel.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sahel.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\samim-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\samim-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\samim.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\samim.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sarpink.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\sarpink.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shabnam-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shabnam-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shabnam.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shabnam.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shin.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\shin.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\tanha.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\tanha.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-light.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-light.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-medium.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-medium.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-thin.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir-thin.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\eot\\vazir.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-demibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-demibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff2\\farhang2-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-black.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-black.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-demibold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-demibold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-extrabold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-extrabold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-extralight.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-extralight.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-medium.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-medium.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-regular.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-regular.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-thin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\farhang\\woff\\farhang2-thin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff2\\kalamehweb(fanum)-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-black.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-black.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-extrabold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-extrabold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-extralight.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-extralight.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-medium.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-medium.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-regular.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-regular.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-semibold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-semibold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-thin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_Woff\\kalamehweb(fanum)-thin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-black.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-black.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-bold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-bold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-extrabold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-extrabold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-extralight.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-extralight.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-light.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-light.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-medium.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-medium.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-regular.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-regular.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-semibold.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-semibold.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-thin.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\kalame\\WebFonts\\_eot\\kalamehweb(fanum)-thin.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff2\\peydawebfanum-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-black.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-black.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-extrabold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-extrabold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-extralight.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-extralight.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-medium.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-medium.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-regular.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-regular.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-semibold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-semibold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-thin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\peyda\\woff\\peydawebfanum-thin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff2\\telegraph_semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_black.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_black.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_extrabold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_extrabold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_medium.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_medium.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_regular.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_regular.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_semibold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\telegraph\\woff\\telegraph_semibold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\a-hana.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\a-hana.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\anjpink-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\anjpink-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\anjpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\anjpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\asardarhoor.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\asardarhoor.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\avpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\avpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\behpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\behpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-bold-en.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-bold-en.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-light.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-light.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-medium.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-medium.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-regular.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-regular.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-thin.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dana-thin.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\danpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\danpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dastnevis.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dastnevis.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dima-fantasy.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dima-fantasy.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dordaneh.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\dordaneh.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-light.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-light.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-medium.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\estd-medium.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\fanavari-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\fanavari-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\fanavari-regular.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\fanavari-regular.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\hekayat.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\hekayat.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\hilpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\hilpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\iran.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\iran.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\irpink-gerd.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\irpink-gerd.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\isansm.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\isansm.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\iyekanw.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\iyekanw.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\kalapink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\kalapink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\khandevane.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\khandevane.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\khaton.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\khaton.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\lalezar.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\lalezar.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\mahboubehpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\mahboubehpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\manpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\manpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\molsaqarabic-extrabold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\molsaqarabic-extrabold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\molsaqarabic-light.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\molsaqarabic-light.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\nahid.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\nahid.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\negaar-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\negaar-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\negaar.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\negaar.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\nic.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\nic.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-ds1-fd.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-ds1-fd.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-ds2-fd.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-ds2-fd.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-fd.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinar-fd.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinksans.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinksans.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinksansdn.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinksansdn.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinkyekan-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinkyekan-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinkyekan.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\pinkyekan.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sahel-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sahel-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sahel.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sahel.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\samim-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\samim-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\samim.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\samim.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sarpink.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sarpink.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sh-arahala.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sh-arahala.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sh-monadi.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\sh-monadi.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-fd.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-fd.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-light.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-light.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-medium.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-medium.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-thin.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam-thin.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shabnam.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shin.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\shin.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\tanha.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\tanha.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-bold.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-bold.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-light.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-light.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-medium.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-medium.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-thin.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir-thin.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\vazir.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\yekanw.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\yekanw.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\yekanwb.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\ttf\\yekanwb.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-extralight.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-extralight.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd[wght].woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-rd[wght].woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn[wght].woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\other version\\vazirmatn[wght].woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\vazirmatn\\thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\anjpink-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\anjpink-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\anjpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\anjpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\avpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\avpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\behpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\behpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\danpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\danpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\estedad.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\estedad.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\hilpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\hilpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\iran.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\iran.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\irpink-gerd.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\irpink-gerd.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\kalapink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\kalapink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\lalezar.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\lalezar.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\mahboubehpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\mahboubehpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\nahid.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\nahid.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\negaar-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\negaar-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\negaar.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\negaar.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\nic.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\nic.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-ds1-fd.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-ds1-fd.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-ds2-fd.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-ds2-fd.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-fd.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinar-fd.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinksans.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinksans.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinksansdn.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinksansdn.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinkyekan-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinkyekan-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinkyekan.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\pinkyekan.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sahel-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sahel-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sahel.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sahel.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\samim-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\samim-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\samim.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\samim.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sarpink.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\sarpink.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shabnam-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shabnam-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shabnam.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shabnam.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\shin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\tanha.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\tanha.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-medium.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-medium.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff2\\vazir.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\anjpink-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\anjpink-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\anjpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\anjpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\avpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\avpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\behpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\behpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\danpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\danpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\hilpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\hilpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\iran.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\iran.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\irpink-gerd.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\irpink-gerd.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\kalapink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\kalapink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\lalezar.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\lalezar.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\mahboubehpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\mahboubehpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\nahid.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\nahid.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\negaar-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\negaar-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\negaar.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\negaar.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\nic.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\nic.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-ds1-fd.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-ds1-fd.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-ds2-fd.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-ds2-fd.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-fd.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinar-fd.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinksans.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinksans.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinksansdn.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinksansdn.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinkyekan-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinkyekan-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinkyekan.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\pinkyekan.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sahel-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sahel-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sahel.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sahel.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\samim-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\samim-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\samim.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\samim.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sarpink.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\sarpink.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shabnam-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shabnam-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shabnam.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shabnam.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\shin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\tanha.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\tanha.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-medium.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-medium.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-thin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir-thin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\woff\\vazir.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-black.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-black.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-bold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-bold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-extrablack.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-extrablack.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-extrabold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-extrabold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-light.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-light.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-regular.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-regular.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-semibold.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-semibold.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-thin.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff2\\yekanbakhfanum-thin.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-black.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-black.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-bold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-bold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-extrablack.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-extrablack.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-extrabold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-extrabold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-light.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-light.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-regular.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-regular.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-semibold.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-semibold.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-thin.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\aghdasi-typo\\typography\\yekanbakh\\woff\\yekanbakhfanum-thin.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\animate.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\custom.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\flaticon-set.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\flaticon-set.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\font-ir.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\font-ir.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\helper.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\helper.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\kingNavBar.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\kingNavBar.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\style.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\style.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\swiper-bundle.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\unit-test.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\unit-test.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\css\\validnavs.css",
+      "PackagePath": "staticwebassets\\SiteTemplate\\css\\validnavs.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\flaticon.eot",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\flaticon.eot"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\flaticon.ttf"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\fonts\\flaticon.woff",
+      "PackagePath": "staticwebassets\\SiteTemplate\\fonts\\flaticon.woff"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\5.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\5.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\about\\6.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\about\\6.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\banner\\1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\banner\\1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\banner\\2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\banner\\2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\banner\\3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\banner\\3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\banner\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\banner\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\banner\\5.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\banner\\5.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\5.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\6.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\7.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\7.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\v1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\v1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\v2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\v2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\v3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\v3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\v4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\v4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\blog\\v5.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\blog\\v5.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\1.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\1.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\2.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\2.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\3.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\3.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\4.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\4.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\aim.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\aim.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\atlassian.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\atlassian.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\email.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\email.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\figma.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\figma.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\react.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\react.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\icon\\wordpress.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\icon\\wordpress.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo-icon-light.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo-icon-light.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo-icon.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo-icon.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo-light.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo\\caspianworld.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo\\caspianworld.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo\\iranfilmport.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo\\iranfilmport.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo\\main-logo-black.webp",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo\\main-logo-black.webp"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo\\main-logo-white.webp",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo\\main-logo-white.webp"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\logo\\main-logo.webp",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\logo\\main-logo.webp"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\11.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\11.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\12.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\12.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\13.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\13.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\14.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\14.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\15.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\15.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\16.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\16.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\17.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\17.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\7.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\7.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\8.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\8.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\9.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\9.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\h1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\h1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\h2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\h2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\h3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\h3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\h4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\h4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\v1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\v1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\portfolio\\v2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\portfolio\\v2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\1.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\1.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\10.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\10.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\11.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\11.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\12.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\12.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\13.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\13.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\14.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\14.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\15.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\15.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\18.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\18.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\19.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\19.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\2.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\2.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\3.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\3.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\6.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\6.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\7.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\7.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\8.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\8.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\projects\\9.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\projects\\9.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\1.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\1.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\10.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\10.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\11.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\11.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\12.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\12.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\14.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\14.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\2.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\2.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\3.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\3.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\4-dark.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\4-dark.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\4.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\4.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\44-left.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\44-left.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\44-right.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\44-right.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\5 (1).png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\5 (1).png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\5.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\5.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\6.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\6.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\7.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\7.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\8.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\8.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\9.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\9.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\banner.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\banner.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\bg-shape-1.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\bg-shape-1.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\bg-shape-3.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\bg-shape-3.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\globe.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\globe.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\graph.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\graph.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\shape\\quote-big.png",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\shape\\quote-big.png"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\10.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\10.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\11.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\11.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\12.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\12.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\13.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\13.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\14.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\14.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\15.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\15.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\16.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\16.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\img\\team\\9.jpg",
+      "PackagePath": "staticwebassets\\SiteTemplate\\img\\team\\9.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\ScrollOnReveal.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\ScrollOnReveal.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\ScrollSmoother.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\ScrollSmoother.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\ScrollTrigger.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\ScrollTrigger.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\YTPlayer.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\YTPlayer.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\circle-progress.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\circle-progress.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\count-to.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\count-to.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\gsap.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\gsap.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\horizontal-accordion-init.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\horizontal-accordion-init.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\horizontal-scroll.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\horizontal-scroll.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\jquery.appear.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\jquery.appear.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\jquery.scrolla.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\jquery.scrolla.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\kingNavBar.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\kingNavBar.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\main.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\main.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\progress-bar.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\progress-bar.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\validnavs.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\validnavs.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\SiteTemplate\\mail\\contact.php"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FIlmposter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FIlmposter.props",
+      "PackagePath": "build\\FIlmposter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FIlmposter.props",
+      "PackagePath": "buildMultiTargeting\\FIlmposter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FIlmposter.props",
+      "PackagePath": "buildTransitive\\FIlmposter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

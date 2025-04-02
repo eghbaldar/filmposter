@@ -1,0 +1,75 @@
+﻿/*.table-responsive, .table-responsive .tbKingResponsive {
+    overflow: hidden !important;
+}*/
+.tbKingResponsiveWarning {
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .table-responsive, .table-responsive .tbKingResponsive {
+        overflow: unset !important;
+    }
+    .tbKingResponsiveWarning {
+        text-align: center;
+        display: block;
+    }
+
+    .table-responsive .tbKingResponsive table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: right !important;
+    }
+
+    .table-responsive .tbKingResponsive th,
+    .table-responsive .tbKingResponsive td {
+        padding: 10px;
+        text-align: right !important;
+    }
+
+    .table-responsive .tbKingResponsive table,
+    .table-responsive .tbKingResponsive thead,
+    .table-responsive .tbKingResponsive tbody,
+    .table-responsive .tbKingResponsive th,
+    .table-responsiv .tbKingResponsivee td,
+    .table-responsive .tbKingResponsive tr {
+        display: block;
+        width: 100%;
+    }
+
+        .table-responsive .tbKingResponsive thead tr {
+            display: none; /* Hide the header on smaller screens */
+        }
+
+    .table-responsive .tbKingResponsive tr {
+        margin-bottom: 10px;
+    }
+
+    .table-responsive .tbKingResponsive td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        flex-wrap: wrap; /* Allow wrapping for labels and values */
+    }
+
+        .table-responsive .tbKingResponsive td * {
+            padding-right: 20px;
+        }
+
+        .table-responsive .tbKingResponsive td:before {
+            content: attr(data-label);
+            font-weight: bold;
+            margin-right: 10px;
+            flex: 1;
+            text-align: right !important;            
+            width: 100% !important;
+        }
+    /* Alternate even and odd row colors */
+    .table-responsive .tbKingResponsive tr:nth-child(even) {
+        background-color: #e0e0e0; /* Light gray for even rows */
+    }
+
+    .table-responsive .tbKingResponsive tr:nth-child(odd) {
+        background-color: #ffffff; /* White for odd rows */
+    }
+}

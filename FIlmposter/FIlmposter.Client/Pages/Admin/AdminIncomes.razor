@@ -1,0 +1,15 @@
+﻿@* @page "/admin/AdminIncomes"
+@using Filmposter.Components.Layout
+@layout SingleLayout
+<PageTitle>مدیریت درآمدها</PageTitle>
+<AdminNavBar />
+@code {
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ParentLayout != null) ParentLayout.UpdateTitle("مدیریت درآمدها"); // Update subTitle of the parent layout
+    }
+}
+ *@

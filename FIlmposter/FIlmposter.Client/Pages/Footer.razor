@@ -1,0 +1,124 @@
+﻿<footer>
+    <div class="footer-box">
+        <div class="container">
+            <div class="f-items default-padding-bottom pt-70 pt-xs-0">
+                <div class="row">
+                    <!-- Singel Item -->
+                    <div class="col-lg-3 col-md-6 footer-item mt-50">
+                        <div class="f-item about pr-50 pr-xs-0 pr-md-0">
+                            @{
+                                if (LogoStyle)
+                                {
+                                    <NavLink href="/"><img class="logo" src="/SiteTemplate/img/logo/main-logo-black.webp" alt="لوگو"></NavLink>
+                                }
+                                else
+                                {
+                                    <NavLink href="/"><img class="logo" src="/SiteTemplate/img/logo/main-logo-white.webp" alt="لوگو"></NavLink>
+                                }
+                            }                            
+                            <p>
+                                وب سایت تخصصی «پوستر فیلم» تنها مرجع تخصصی طراحی و برگزاری جشنواره‌های پوستر فیلم‌های کوتاه و بلند است.
+                            </p>
+                            <div class="footer-social mt-30">
+                                <ul>
+                                    <li><a href="index-light.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="index-light.html#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="index-light.html#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Singel Item -->
+                    <!-- Singel Item -->
+                    <div class="col-lg-3 col-md-6 mt-50 footer-item pl-50 pl-md-15 pl-xs-15">
+                        <div class="f-item link">
+                            <h4 class="widget-title">خلاقه‌ها</h4>
+                            <ul>
+                                <li>
+                                    <a href="about-us.html">سفارش طراحی پوستر</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">پوسترهای نمونه ایرانی</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">پوسترهای نمونه خارجی</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Singel Item -->
+                    <!-- Singel Item -->
+                    <div class="col-lg-3 col-md-6 footer-item  mt-50">
+                        <div class="f-item link">
+                            <h4 class="widget-title">آموزش‌ها</h4>
+                            <ul>
+                                <li>
+                                    <a href="about-us.html">مقالات تخصصی طراحی پوستر</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">شاخص‌های پوسترهای استاندارد</a>
+                                </li>
+                            </ul>
+                            <h4 class="widget-title mt-30">همکاران</h4>
+                            <ul>
+                                <li>
+                                    <span>استودیو «زنبور آبی»</span>
+                                </li>
+                                <li>
+                                    <span>استودیو AE.STUDIO</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Singel Item -->
+                    <!-- Singel Item -->
+                    <div class="col-lg-3 col-md-6 footer-item mt-50">
+                        <div class="f-item newsletter">
+                            <h4 class="widget-title">خبرنامه</h4>
+                            <p>
+                                از بروزترین‌های «پوستر فیلم» با خبر بشید!
+                            </p>
+                            <form action="index-light.html#">
+                                <input type="email" placeholder="ایمیل شما" class="form-control" name="email">
+                                <button type="submit"><i class="fas fa-arrow-left"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Singel Item -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom bg-dark text-light text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 offset-lg-3">
+                        <p>
+                            تمامی حقوق مادی و معنوی این پرتال به شرکت حقوقی
+                            <a href="https://iranfilmport.com" target="_blank">«درگاه فیلم ایران»</a>
+                            تعلق دارد - 1404
+                        </p>
+                        <p>
+                            طراحی و پیاده‌سازی توسط
+                            <a href="https://caspianworld.ir" target="_blank">«طراحان وب کاسپین»</a>
+                        </p>
+                        <a href="https://iranfilmport.com" target="_blank">
+                            <img src="SiteTemplate\img\logo\iranfilmport.png" class="img-fluid" style="max-width:100px" />
+                        </a>
+                        <a href="https://caspianworld.ir" target="_blank">
+                            <img src="SiteTemplate\img\logo\caspianworld.png" class="img-fluid" style="max-width:100px" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </div>
+</footer><!-- End Footer -->
+@code {
+    [Parameter]
+    public bool LogoStyle { get; set; }
+}

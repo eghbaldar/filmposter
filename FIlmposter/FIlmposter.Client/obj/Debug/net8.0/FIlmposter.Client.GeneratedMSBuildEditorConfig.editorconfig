@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = FIlmposter.Client
+build_property.RootNamespace = FIlmposter.Client
+build_property.ProjectDir = D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Header1.razor]
+build_metadata.AdditionalFiles.TargetPath = SGVhZGVyMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Layout/MainHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5IZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Layout/SingleLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFNpbmdsZUxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/AdminNavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5OYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminBlog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5CbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5EYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminIncomes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5JbmNvbWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminInsertFilmPoster.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5JbnNlcnRGaWxtUG9zdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminNewsletters.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5OZXdzbGV0dGVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminOrders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5PcmRlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Admin/AdminUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/FilmPosters.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbVBvc3RlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fd7cjo4f2d

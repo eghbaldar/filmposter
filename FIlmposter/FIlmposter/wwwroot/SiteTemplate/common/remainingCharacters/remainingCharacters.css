@@ -1,0 +1,17 @@
+﻿textarea {
+    resize: none;
+}
+.form-label-counter {
+    opacity: 0.8;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #0079BF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}

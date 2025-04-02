@@ -1,0 +1,16 @@
+﻿@* @page "/admin/adminBlog"
+@inherits LayoutComponentBase
+@layout SingleLayout
+
+<PageTitle>مدیریت مقالات</PageTitle>
+<AdminNavBar />
+@code {
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ParentLayout != null) ParentLayout.UpdateTitle("مدیریت مقالات"); // Update subTitle of the parent layout
+    }
+}
+ *@

@@ -1,0 +1,15 @@
+﻿@* @page "/admin/AdminNewsletters"
+@using Filmposter.Components.Layout
+@layout SingleLayout
+<PageTitle>مدیریت خبرنامه‌هاس</PageTitle>
+<AdminNavBar />
+@code {
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ParentLayout != null) ParentLayout.UpdateTitle("مدیریت خبرنامه‌ها"); // Update subTitle of the parent layout
+    }
+}
+ *@

@@ -1,0 +1,12 @@
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\bin\Debug\net8.0\Filmposter.Domain.deps.json
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\bin\Debug\net8.0\Filmposter.Domain.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\bin\Debug\net8.0\Filmposter.Domain.pdb
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.AssemblyInfoInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.AssemblyInfo.cs
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.csproj.CoreCompileInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.sourcelink.json
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\refint\Filmposter.Domain.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\Filmposter.Domain.pdb
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Domain\obj\Debug\net8.0\ref\Filmposter.Domain.dll

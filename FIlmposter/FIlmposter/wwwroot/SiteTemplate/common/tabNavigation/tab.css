@@ -1,0 +1,111 @@
+﻿@font-face {
+    font-family: 'futurafuturisc-italic';
+    src: url('../../SiteTemplate/innerpages/fonts/futurafuturisc-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'futurafuturisc-bolditalic';
+    src: url('../../SiteTemplate/innerpages/fonts/futurafuturisc-bolditalic.otf') format('opentype');
+}
+/* CSSTerm.com Horizontal Easy DropDown CSS menu */
+.headerNavigation {
+    margin-bottom: 7px;
+}
+
+    .headerNavigation .drop_menu {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+        .headerNavigation .drop_menu :hover {
+            position: relative;
+        }
+
+        .headerNavigation .drop_menu li {
+            float: left;
+        }
+
+            .headerNavigation .drop_menu li a {
+                padding: 17px 15px;
+                display: block;
+                text-decoration: none;
+                font-weight: normal;
+            }
+        /* Submenu */
+        .headerNavigation .drop_menu ul {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+            list-style-type: none;
+        }
+
+        .headerNavigation .drop_menu li:hover ul {
+            left: 0px;
+            top: 53px;
+            background: #d6d6d6;
+            padding: 0px;
+        }
+
+            .headerNavigation .drop_menu li:hover ul li a {
+                padding: 10px;
+                display: block;
+                width: 168px;
+                text-indent: 15px;
+                background-color: #fff;
+                font-size: 14px;
+            }
+
+                .headerNavigation .drop_menu li:hover ul li a:hover {
+                    background: #f1f1f1;
+                }
+/******************************************** TAB *************************/
+.TabcontentClass {
+    display: none;
+}
+
+.TabcontentClass {
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tablinks {
+    font-family: futurafuturisc-italic;
+    font-size: 18px;
+    color: #9f9f9f;
+}
+
+.drop_menu {
+    overflow: hidden;
+}
+
+    .drop_menu button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+
+        .drop_menu button:hover {
+            /*background-color: #ddd;*/
+        }
+
+        .drop_menu button.active {
+            color: black;
+            font-family: 'futurafuturisC-bolditalic';
+            font-size: 18px;
+        }

@@ -1,0 +1,211 @@
+﻿@* @page "/admin/insertfilmposter/{category}"
+@inject HttpClient _http;
+@inject IJSRuntime JS
+
+@using Filmposter.Components.Layout
+@layout SingleLayout
+<AdminNavBar />
+@if (Category == "nationalInsertFilmPosters")
+{
+    <PageTitle>درج پوستر فیلم‌ ایرانی</PageTitle>
+    <NavLink href="/admin/showfilmposter/adminNationalFilmPosters" class="btn btn-primary">مشاهده پوستر فیلم‌های ایرانی</NavLink>
+}
+else if (Category == "foreignInsertFilmPosters")
+{
+    <PageTitle>درج پوستر فیلم خارجی</PageTitle>
+    <NavLink href="/admin/showfilmposter/adminForeignFilmPosters" class="btn btn-primary">مشاهده پوستر فیلم‌های خارجی</NavLink>
+}
+
+<div class="card-box">
+    <div class="row mt-3">
+        <div class="col-12" id="divProfile">
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
+                </div>
+                <input type="text" @bind="filmPoster.TitleFa" class="form-control" id="txtEditFirstname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به انگلیسی</span>
+                </div>
+                <input type="text" @bind="filmPoster.TitleEn" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">کارگردان</span>
+                </div>
+                <input type="text" @bind="filmPoster.Director" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
+                </div>
+                <input type="text" @bind="filmPoster.Producer" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه فیلم</span>
+                </div>
+                <textarea class="form-control" @bind="filmPoster.Summary" rows="10" id="txtEditBio" aria-label="With textarea"></textarea>
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
+                </div>
+                <input id="txtProductionDate" @bind="filmPoster.ProductionDate" type="text" readonly class="form-control shamsidate">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر </span>
+                </div>
+                <input type="file" class="form-control" @bind="filmPoster.File" id="fileSidedPdf" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
+                </div>
+                <select class="form-select" id="selectUserTitle" @bind="filmPoster.ShortFeature">
+                    <option>کوتاه</option>
+                    <option>نیمه بلند</option>
+                    <option>بلند</option>
+                    <option>سریال</option>
+                    <option>کاور فیلمنامه</option>
+                </select>
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
+                </div>
+                <select class="form-select" id="selectUserTitle" @bind="filmPoster.Style">
+                    <option>داستانی</option>
+                    <option>مستند</option>
+                    <option>انیمیشن</option>
+                    <option>تجربی</option>
+                </select>
+            </div>            
+            <div class="alert alert-warning" role="alert">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="form-control">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                        </div>
+                        هست
+                        <label class="custom-control border-switch">
+                            <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
+                            <span class="border-switch-control-indicator"></span>
+                        </label>
+                        نیست
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" @onclick="() => SubmitForm()" class="btn btn-primary" data-dismiss="modal">ذخیره</button>
+                <button @onclick="LogMessage">Click Me</button>
+                <button @onclick="() => LogMessage()">Click Me</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Category { get; set; }
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ParentLayout != null)
+        {
+            switch (Category)
+            {
+                case "nationalInsertFilmPosters":
+                    ParentLayout.UpdateTitle("درج پوستر فیلم ایرانی"); // Update subTitle of the parent layout
+                    break;
+                case "foreignInsertFilmPosters":                    
+                    ParentLayout.UpdateTitle("درج پوستر فیلم‌ خارجی"); // Update subTitle of the parent layout
+                    break;
+            }
+        }
+    }
+
+    private void LogMessage()
+    {
+        Console.WriteLine("Button clicked!");
+        System.Diagnostics.Debug.WriteLine("Button clicked!");
+
+    }
+}
+@functions {
+
+
+    public class FilmPosterModel
+    {
+        public bool FilmPoster { get; set; }
+        public bool Foreign { get; set; }
+        public string TitleFa { get; set; }
+        public string? TitleEn { get; set; }
+        public string Slug { get; set; }
+        public string Director { get; set; }
+        public string Producer { get; set; }
+        public string Summary { get; set; }
+        public DateOnly ProductionDate { get; set; }
+        public string File { get; set; }
+        public bool Worth { get; set; }
+        public bool ShortFeature { get; set; }
+        public int Score { get; set; }
+        public byte Style { get; set; }
+    }
+
+    //private FilmPosterModel filmPoster = new();
+    private string? responseMessage;
+
+    private async Task SubmitForm()
+    {
+        Console.WriteLine("SubmitForm clicked!"); // Debug log
+
+        var content = new MultipartFormDataContent();
+        var result = await _http.PostAsync("/api/FilmPosters", content);
+        try
+        {
+            using var content = new MultipartFormDataContent();
+            content.Add(new StringContent(filmPoster.TitleFa ?? ""), "TitleFa");
+            content.Add(new StringContent(filmPoster.TitleEn ?? ""), "TitleEn");
+            content.Add(new StringContent(filmPoster.Director ?? ""), "Director");
+            content.Add(new StringContent(filmPoster.Producer ?? ""), "Producer");
+            content.Add(new StringContent(filmPoster.Summary ?? ""), "Summary");
+            content.Add(new StringContent(filmPoster.ProductionDate.ToString()), "ProductionDate");
+            content.Add(new StringContent(filmPoster.Worth.ToString()), "Worth");
+            content.Add(new StringContent(filmPoster.ShortFeature.ToString()), "ShortFeature");
+            content.Add(new StringContent(filmPoster.Score.ToString()), "Score");
+            content.Add(new StringContent(filmPoster.Style.ToString()), "Style");
+
+            // Handling file upload
+            // var fileInput = document.getElementById("fileSidedPdf").files[0];
+            // if (fileInput != null)
+            // {
+            //     var fileStream = fileInput.stream();
+            //     content.Add(new StreamContent(fileStream), "File", fileInput.name);
+            // }
+
+            var result = await _http.PostAsync("/api/FilmPosters", content);
+
+            if (result.IsSuccessStatusCode)
+            {
+                responseMessage = "Successfully submitted!";
+            }
+            else
+            {
+                responseMessage = $"Error: {result.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            responseMessage = $"Exception: {ex.Message}";
+        }
+    }
+
+}
+ *@
