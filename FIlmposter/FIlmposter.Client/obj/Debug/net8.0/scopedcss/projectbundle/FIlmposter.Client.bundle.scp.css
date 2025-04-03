@@ -1,3 +1,8 @@
+/* /Layout/MainHeader.razor.rz.scp.css */
+:deep(.navbar-header-logo)[b-9y4ca2aykd] {
+    width: 400px !important;
+    height: 400px !important;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-fd7cjo4f2d] {
     position: relative;

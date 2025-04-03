@@ -1029,3 +1029,4 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\refint\FIlmposter.Client.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\FIlmposter.Client.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\ref\FIlmposter.Client.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\scopedcss\Layout\MainHeader.razor.rz.scp.css

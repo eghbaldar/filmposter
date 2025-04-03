@@ -250,25 +250,27 @@
 
 			/* ===============================  scroll  =============================== */
 
-			let section_scroll = document.querySelector(".thecontainer");
-			if (section_scroll) {
-				gsap.registerPlugin(ScrollTrigger);
+			try {
+				let section_scroll = document.querySelector(".thecontainer");
+				if (section_scroll) {
+					gsap.registerPlugin(ScrollTrigger);
 
-				let sections = gsap.utils.toArray(".panel");
+					let sections = gsap.utils.toArray(".panel");
 
-				gsap.to(sections, {
-					xPercent: -100 * (sections.length - 1),
-					ease: "none",
-					scrollTrigger: {
-						trigger: ".thecontainer",
-						pin: true,
-						scrub: 1,
-						// snap: 1 / (sections.length - 1),
-						end: () => "+=" + document.querySelector(".thecontainer").offsetWidth
-					}
-				});
+					gsap.to(sections, {
+						xPercent: -100 * (sections.length - 1),
+						ease: "none",
+						scrollTrigger: {
+							trigger: ".thecontainer",
+							pin: true,
+							scrub: 1,
+							// snap: 1 / (sections.length - 1),
+							end: () => "+=" + document.querySelector(".thecontainer").offsetWidth
+						}
+					});
+				}
 			}
-
+			catch { }
 		}
 
 

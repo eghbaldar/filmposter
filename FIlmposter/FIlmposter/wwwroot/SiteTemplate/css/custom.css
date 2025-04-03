@@ -23,6 +23,23 @@ a {
     margin-bottom:20px;
 }
 /*---------------------------------------------------------------
+header
+-------------------------------------------------------------------*/
+.navbar-header-logo {
+    width: 200px !important;
+    height: auto !important;
+}
+@media (max-width:800px){
+    .navbar-header-logo {
+        margin-top:50px;
+        width: 300px !important;
+        max-height: 100px!important;
+    }
+}
+.breadcrumb-area .frame {
+    height: 50px;
+}
+/*---------------------------------------------------------------
 Swtich Buttons
 -------------------------------------------------------------------*/
 .holderSwitcher {

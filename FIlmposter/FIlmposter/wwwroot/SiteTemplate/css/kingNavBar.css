@@ -155,3 +155,16 @@
         display: none;
     }
 }
+.nav2-navbar-black *,
+.nav2-navbar-black .dropdown a,
+.nav2-navbar-black [NavBar],
+.nav2-navbar-black li .exclude-dropdown {
+    color: black !important;
+}
+
+.info-black {
+    color: black !important;
+}
+.info-white {
+    color: white !important;
+}

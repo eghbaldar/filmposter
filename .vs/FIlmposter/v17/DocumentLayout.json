@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|solutionrelative:filmposter\\filmposter.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter.client\\pages\\admin\\adminshowfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|solutionrelative:filmposter\\filmposter.client\\pages\\admin\\adminshowfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter.client\\pages\\admin\\admininsertfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|solutionrelative:filmposter\\filmposter.client\\pages\\admin\\admininsertfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter.client\\pages\\admin\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|solutionrelative:filmposter\\filmposter.client\\pages\\admin\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter.client\\pages\\adminnavbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E29BEF24-915C-4AC4-8B5E-F85308F4A5D1}|FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj|solutionrelative:filmposter\\filmposter.client\\pages\\adminnavbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\appsettings.json",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\appsettings.json",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\appsettings.json",
+              "RelativeToolTip": "FIlmposter\\FIlmposter\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T09:42:38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Program.cs",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Program.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Program.cs",
+              "RelativeToolTip": "FIlmposter\\FIlmposter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:40:47.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Program.cs",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter.Client\\Program.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Program.cs",
+              "RelativeToolTip": "FIlmposter\\FIlmposter.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:40:11.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashboard.razor",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminDashboard.razor",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminDashboard.razor",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminDashboard.razor",
+              "RelativeToolTip": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:22:33.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminShowFilmPoster.razor",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminShowFilmPoster.razor",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminShowFilmPoster.razor",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminShowFilmPoster.razor",
+              "RelativeToolTip": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminShowFilmPoster.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:19:42.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminInsertFilmPoster.razor",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "RelativeToolTip": "FIlmposter\\FIlmposter.Client\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:19:18.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminNavBar.razor",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\AdminNavBar.razor",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter.Client\\Pages\\AdminNavBar.razor",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\Pages\\AdminNavBar.razor",
+              "RelativeToolTip": "FIlmposter\\FIlmposter.Client\\Pages\\AdminNavBar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:18:33.196Z",
+              "EditorCaption": ""
             }
           ]
         }

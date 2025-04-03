@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FIlmposter.Client",
   "resources": {
-    "hash": "sha256-+Nz//sWgjgokSHnInuHYPBr0MHHecPdXUZ9+rzV6V40=",
+    "hash": "sha256-ePaVIa5qHYdpUPZuVZLYb4mRmeD/RcTXQKZdPa2VHVU=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.e6rulwbmvp.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "FIlmposter.Client.wasm": "sha256-mxnrbKrP+EaEV8kJtoJPCs6IZIBECXhsf3pvgZLU9jM="
+      "FIlmposter.Client.wasm": "sha256-Bc9DqFK3k+YF82sd2v6DrBJAB8Psj7dg7d2RHXb3Xlk="
     },
     "pdb": {
-      "FIlmposter.Client.pdb": "sha256-E15GRP4wM1C9mZXgvWdUXVTgB53Rd8xekkugL8xQB/0="
+      "FIlmposter.Client.pdb": "sha256-tNZW5ETFd7SRX4iKxyiGAlFTA1vCGf/KACgbdr4YkEA="
     }
   },
   "cacheBootResources": true,

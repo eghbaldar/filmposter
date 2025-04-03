@@ -12,11 +12,11 @@
                     @{
                         if (LogoStyle)
                         {
-                            <img src="/SiteTemplate/img/logo/main-logo-black.webp" class="logo" alt="لوگو">
+                            <img src="/SiteTemplate/img/logo/main-logo-black.webp" class="navbar-header-logo" alt="لوگو">
                         }
                         else
                         {
-                            <img src="/SiteTemplate/img/logo/main-logo-white.webp" class="logo" alt="لوگو">
+                            <img src="/SiteTemplate/img/logo/main-logo-white.webp" class="navbar-header-logo" alt="لوگو">
                         }
                     }
                 </NavLink>
@@ -37,7 +37,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-times"></i>
                 </button>
-                <ul class="nav2-navbar navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                <ul class="@GetThemeClass()" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="dropdown">
                         <NavLink href="/" class="dropdown-toggle" data-toggle="dropdown">
                             خانه
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="info">
                                     <p>تنها پوستر است که می‌ماند</p>
-                                    <h5><a href="mailto:info@filmposter.ir">info[at]filmposter.ir</a></h5>
+                                    <h5><a class="@GetInfoClass()" href="mailto:info@filmposter.ir">info[at]filmposter.ir</a></h5>
                                 </div>
                             </div>
                         </li>
@@ -132,4 +132,7 @@
 @code {
     [Parameter]
     public bool LogoStyle { get; set; }
+    // change the style based on theme
+    private string GetThemeClass() => LogoStyle ? "nav2-navbar navbar-center nav2-navbar-black" : "nav2-navbar navbar-center nav2-navbar-white";
+    private string GetInfoClass() => LogoStyle ? "info-black" : "info-white";
 }

@@ -10,11 +10,11 @@
 
 
 @code {
-    // [CascadingParameter]
-    // public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
-
-    // protected override async Task OnInitializedAsync()
-    // {
-    //     if (ParentLayout != null) ParentLayout.UpdateTitle("صفحه ادمین"); // Update subTitle of the parent layout
-    // }
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+    protected override async Task OnInitializedAsync()
+    {
+        // Update subTitle of the parent layou
+        if (ParentLayout != null) ParentLayout.UpdateTitle("صفحه ادمین");
+    }
 }
