@@ -1,5 +1,6 @@
 using FIlmposter.Client.Pages;
 using FIlmposter.Components;
+using System.Net.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,21 +9,38 @@ builder.Services.AddRazorComponents().AddInteractiveWebAssemblyComponents();
 
 // set API settings
 builder.Services.AddHttpClient();
-var environment = builder.Environment.EnvironmentName;
-string apiBaseUrl;
-if (environment == "Development")
+// Keep your existing server configuration
+//builder.Services.AddHttpClient("ServerApi", client =>
+//{
+//    var environment = builder.Environment;
+//    client.BaseAddress = new Uri(environment.IsDevelopment()
+//        ? builder.Configuration["ApiBaseUrl_Localhost"]!
+//        : builder.Configuration["ApiBaseUrl_Server"]!);
+//});
+// Configure HttpClient with API base address (Necessary!)
+builder.Services.AddScoped(sp =>
+    new HttpClient
+    {
+        BaseAddress = new Uri("https://localhost:7104") // API's URL
+    });
+
+// Add CORS services (Necessary)
+var corsPolicyName = "AllowBlazorClient";
+builder.Services.AddCors(options =>
 {
-    apiBaseUrl = builder.Configuration["ApiBaseUrl_Localhost"]; // Local API URL
-}
-else if (environment == "Production")
-{
-    apiBaseUrl = builder.Configuration["ApiBaseUrl_Server"]; // Production (server) API URL
-}
-else
-{
-    throw new Exception("Unknown environment: " + environment);
-}
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiBaseUrl) });
+    options.AddPolicy(name: corsPolicyName,
+        policy =>
+        {
+            policy.WithOrigins(
+                    "https://localhost:7104",  // Your Blazor app
+                    "http://localhost:5274",  // Optional HTTP fallback
+                    "https://localhost:5001",  // Common Blazor ports
+                    "http://localhost:5000")   // Common Blazor ports
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 
 var app = builder.Build();
 
@@ -34,9 +52,10 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseCors("AllowBlazorClient"); // (Necessary)
 
 app.UseHttpsRedirection();
 

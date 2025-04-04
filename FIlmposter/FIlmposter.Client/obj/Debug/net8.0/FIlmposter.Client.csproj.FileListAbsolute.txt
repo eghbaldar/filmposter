@@ -1,3 +1,4 @@
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\AWSSDK.Core.wasm
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
@@ -380,6 +381,7 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Immutable.wasm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Primitives.wasm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\System.Configuration.wasm.gz
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\AWSSDK.Core.wasm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\System.Formats.Asn1.wasm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.wasm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
@@ -409,6 +411,7 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\FIlmposter.Client.staticwebassets.runtime.json
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\FIlmposter.Client.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\FIlmposter.Client.pdb
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\AWSSDK.Core.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -616,6 +619,7 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\FIlmposter.Client.csproj.CoreCompileInputs.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\FIlmposter.Client.MvcApplicationPartsAssemblyInfo.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\FIlmposter.Client.sourcelink.json
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\webcil\AWSSDK.Core.wasm
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -817,10 +821,9 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FIlmposter.Client.props
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FIlmposter.Client.props
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\staticwebassets.pack.json
-D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\scopedcss\bundle\FIlmposter.Client.styles.css
-D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\scopedcss\projectbundle\FIlmposter.Client.bundle.scp.css
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\compressed\h2tlajtqos.gz
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\compressed\viw1m2plsm.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\compressed\rk58y8oie7.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\compressed\k4behycg4i.gz
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\compressed\r83015797i.gz
@@ -1029,4 +1032,3 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\refint\FIlmposter.Client.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\FIlmposter.Client.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\ref\FIlmposter.Client.dll
-D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter.Client\obj\Debug\net8.0\scopedcss\Layout\MainHeader.razor.rz.scp.css

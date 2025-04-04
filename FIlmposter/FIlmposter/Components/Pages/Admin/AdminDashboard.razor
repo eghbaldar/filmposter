@@ -1,0 +1,17 @@
+﻿@page "/admin/adminDashboard"
+@rendermode InteractiveWebAssembly
+@using FIlmposter.Layout
+@layout SingleLayout
+
+<PageTitle>صفحه ادمین</PageTitle>
+
+
+@code {
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+    protected override async Task OnInitializedAsync()
+    {
+        // Update subTitle of the parent layou
+        if (ParentLayout != null) ParentLayout.UpdateTitle("صفحه ادمین");
+    }
+}

@@ -1,0 +1,269 @@
+﻿@page "/admin/insertfilmposter/{category}"
+@rendermode InteractiveWebAssembly
+
+@inject IJSRuntime _js
+@inject HttpClient _http
+
+@using FIlmposter.Layout
+@layout SingleLayout
+<AdminNavBar />
+
+@if (Category == "adminInsertNationalFilmPosters")
+{
+    <PageTitle>@CategoryName</PageTitle>
+    <NavLink href="/admin/showfilmposter/adminNationalFilmPosters" class="btn btn-primary">مشاهده پوستر فیلم‌های ایرانی</NavLink>
+}
+else if (Category == "adminInsertForeignFilmPosters")
+{
+    <PageTitle>@CategoryName</PageTitle>
+    <NavLink href="/admin/showfilmposter/adminForeignFilmPosters" class="btn btn-primary">مشاهده پوستر فیلم‌های خارجی</NavLink>
+}
+
+<div class="card-box">
+    <div class="row mt-3">
+        <div class="col-12" id="divProfile">
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
+                </div>
+                <input type="text" @bind="filmPoster.TitleFa" class="form-control" id="txtEditFirstname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به انگلیسی</span>
+                </div>
+                <input type="text" @bind="filmPoster.TitleEn" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">کارگردان</span>
+                </div>
+                <input type="text" @bind="filmPoster.Director" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
+                </div>
+                <input type="text" @bind="filmPoster.Producer" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه فیلم</span>
+                </div>
+                <textarea class="form-control" @bind="filmPoster.Summary" rows="10" id="txtEditBio" aria-label="With textarea"></textarea>
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
+                </div>
+                <input id="txtProductionDate" @bind="filmPoster.ProductionDate" type="text" readonly class="form-control shamsidate">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر </span>
+                </div>
+                <input type="file" class="form-control" @bind="filmPoster.File" id="fileSidedPdf" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
+                </div>
+                <select class="form-select" id="selectUserTitle" @bind="filmPoster.ShortFeature">
+                    <option>کوتاه</option>
+                    <option>نیمه بلند</option>
+                    <option>بلند</option>
+                    <option>سریال</option>
+                    <option>کاور فیلمنامه</option>
+                </select>
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
+                </div>
+                <select class="form-select" id="selectUserTitle" @bind="filmPoster.Style">
+                    <option>داستانی</option>
+                    <option>مستند</option>
+                    <option>انیمیشن</option>
+                    <option>تجربی</option>
+                </select>
+            </div>
+            <div class="alert alert-warning" role="alert">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="form-control">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                        </div>
+                        هست
+                        <label class="custom-control border-switch">
+                            <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
+                            <span class="border-switch-control-indicator"></span>
+                        </label>
+                        نیست
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" @onclick="() => SubmitForm()" class="btn btn-primary" data-dismiss="modal">ذخیره</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* @using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@inject IServiceProvider sp
+@if (sp.GetService<IWebAssemblyHostEnvironment>() is not null)
+{
+    var env = sp.GetRequiredService<IWebAssemblyHostEnvironment>();
+    environment = env.Environment;
+    basehttp = env.BaseAddress;
+}
+<h1>@environment</h1>
+<br/>
+<h1>@basehttp</h1>
+ *@
+@code {
+    string environment;
+    string basehttp;
+    // [Inject]
+    // private HttpClient? _http { get; set; }  // Explicitly injecting here to confirm
+
+    [Parameter]
+    public string? Category { get; set; }
+    public string? CategoryName { get; set; }
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ParentLayout != null)
+        {
+            // Update subTitle of the parent layout
+            switch (Category)
+            {
+                case "adminInsertNationalFilmPosters":
+                    CategoryName = "درج پوستر فیلم ایرانی";
+                    ParentLayout.UpdateTitle(CategoryName);
+                    break;
+                case "adminInsertForeignFilmPosters":
+                    CategoryName = "درج پوستر فیلم‌ خارجی";
+                    ParentLayout.UpdateTitle(CategoryName);
+                    break;
+            }
+        }
+    }
+    public class FilmPosterModel
+    {
+        public bool FilmPoster { get; set; }
+        public bool Foreign { get; set; }
+        public string TitleFa { get; set; }
+        public string? TitleEn { get; set; }
+        public string Slug { get; set; }
+        public string Director { get; set; }
+        public string Producer { get; set; }
+        public string Summary { get; set; }
+        public DateOnly ProductionDate { get; set; }
+        public string File { get; set; }
+        public bool Worth { get; set; }
+        public bool ShortFeature { get; set; }
+        public int Score { get; set; }
+        public byte Style { get; set; }
+    }
+
+    private FilmPosterModel filmPoster = new();
+    private string? responseMessage;
+    private async Task SubmitForm2()
+    {
+        try
+        {
+            var content = new MultipartFormDataContent();
+            content.Add(new StringContent(filmPoster.TitleFa ?? ""), "TitleFa");
+            // Add other fields...
+
+            // Explicitly create a new HttpRequestMessage
+            var request = new HttpRequestMessage(HttpMethod.Post, "/api/FilmPosters")
+                {
+                    Content = content
+                };
+
+            // Add headers if needed
+            var response = await _http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                responseMessage = "Success!";
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                responseMessage = $"Error: {response.StatusCode}";
+                Console.WriteLine($"API Error: {error}");
+            }
+        }
+        catch (Exception ex)
+        {
+            responseMessage = "Network error - try again";
+            Console.WriteLine($"Exception: {ex.Message}\n{ex.StackTrace}");
+        }
+    }
+    private async Task SubmitForm3()
+    {
+        Console.WriteLine("SubmitForm clicked!");
+
+        try
+        {
+            // Remove the using block - we need the content to survive until after PostAsync
+            var content = new MultipartFormDataContent();
+
+            // Add all form fields
+            content.Add(new StringContent(filmPoster.TitleFa ?? ""), "TitleFa");
+            content.Add(new StringContent(filmPoster.TitleEn ?? ""), "TitleEn");
+            content.Add(new StringContent(filmPoster.Director ?? ""), "Director");
+            content.Add(new StringContent(filmPoster.Producer ?? ""), "Producer");
+            content.Add(new StringContent(filmPoster.Summary ?? ""), "Summary");
+            content.Add(new StringContent(filmPoster.ProductionDate.ToString()), "ProductionDate");
+            content.Add(new StringContent(filmPoster.Worth.ToString()), "Worth");
+            content.Add(new StringContent(filmPoster.ShortFeature.ToString()), "ShortFeature");
+            content.Add(new StringContent(filmPoster.Score.ToString()), "Score");
+            content.Add(new StringContent(filmPoster.Style.ToString()), "Style");
+
+            // File upload handling (uncomment when ready)
+            /*
+            var fileInput = await fileUploadComponent.GetFileAsync();
+                if (fileInput != null)
+                {
+                var fileStream = fileInput.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024); // 10MB max
+                content.Add(new StreamContent(fileStream), "File", fileInput.Name);
+            }
+            */
+
+            //var result = await _http.PostAsync("https://localhost:7104/api/FilmPosters", content);
+            var result = await _http.GetAsync("https://localhost:7104/api/FilmPosters");
+
+            if (result.IsSuccessStatusCode)
+            {
+                responseMessage = "Successfully submitted!";
+                // Consider clearing the form here
+            }
+            else
+            {
+                var errorContent = await result.Content.ReadAsStringAsync();
+                Console.WriteLine($"Error: {result.StatusCode} - {errorContent}");
+                responseMessage = $"Error: {result.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception: {ex.Message}");
+            Console.WriteLine(ex.StackTrace);
+            responseMessage = $"Failed: {ex.Message}";
+        }
+    }
+    private async Task SubmitForm()
+    {
+        var output = await _http.GetFromJsonAsync<string>($"https://localhost:7104/api/FilmPosters");
+        Console.WriteLine(output);
+    }
+
+}
+
+

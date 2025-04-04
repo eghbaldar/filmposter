@@ -22,6 +22,7 @@ namespace FilmPoster.Application.Interfaces.Contexts
 
         // Admin Entities
         DbSet<FilmPosters> FilmPosters { get; set; }
+        DbSet<FilmPosterScores> FilmPosterScores { get; set; }
         DbSet<Articles> Articles { get; set; }
         DbSet<ArticleCategories> ArticleCategories { get; set; }
         DbSet<ArticleComments> ArticleComments { get; set; }

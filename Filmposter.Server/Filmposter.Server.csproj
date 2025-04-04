@@ -7,11 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FilmPoster.Application\FilmPoster.Application.csproj" />
+    <ProjectReference Include="..\Filmposter.Infrastructure\Filmposter.Infrastructure.csproj" />
+    <ProjectReference Include="..\Filmposter.Persistence\Filmposter.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

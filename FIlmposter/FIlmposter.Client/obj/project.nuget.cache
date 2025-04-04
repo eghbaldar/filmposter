@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yyA/hjCRdcE=",
+  "dgSpecHash": "ss7uiWTojGk=",
   "success": true,
   "projectFilePath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kinh\\.nuget\\packages\\awssdk.core\\3.7.402.33\\awssdk.core.3.7.402.33.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.8\\microsoft.aspnetcore.components.analyzers.8.0.8.nupkg.sha512",

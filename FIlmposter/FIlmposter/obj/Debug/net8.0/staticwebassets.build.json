@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fYhbKGkOuJOEO1lKxqyILaBE2Lk9hQMSK6Eig7ZdipI=",
+  "Hash": "bAcVyl6xpD9RukfO2+Z0IaoENK+seRmMFjUkPtry25U=",
   "Source": "FIlmposter",
   "BasePath": "_content/FIlmposter",
   "Mode": "Default",
@@ -35,6 +35,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AWSSDK.Core.wasm",
+      "SourceId": "FIlmposter.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AWSSDK.Core.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\webcil\\AWSSDK.Core.wasm"
+    },
     {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "FIlmposter.Client",
@@ -7294,6 +7313,25 @@
       "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Configuration.wasm"
     },
     {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\compressed\\viw1m2plsm.gz",
+      "SourceId": "FIlmposter.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AWSSDK.Core.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AWSSDK.Core.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AWSSDK.Core.wasm"
+    },
+    {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\compressed\\vj73xp6vjc.gz",
       "SourceId": "FIlmposter.Client",
       "SourceType": "Project",
@@ -7788,25 +7826,6 @@
       "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.wasm"
     },
     {
-      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.Client.bundle.scp.css",
-      "SourceId": "FIlmposter.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "/",
-      "RelativePath": "FIlmposter.Client.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.Client.bundle.scp.css"
-    },
-    {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\wwwroot\\appsettings.Development.json",
       "SourceId": "FIlmposter.Client",
       "SourceType": "Project",
@@ -7862,6 +7881,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FIlmposter.styles.css"
+    },
+    {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.bundle.scp.css",
+      "SourceId": "FIlmposter",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/FIlmposter",
+      "RelativePath": "FIlmposter.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.bundle.scp.css"
     },
     {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\app.css",

@@ -1,0 +1,94 @@
+﻿@if (Category == "adminNationalFilmPosters")
+{
+    <PageTitle>@CategoryName</PageTitle>
+    <NavLink href="/admin/insertfilmposter/adminInsertNationalFilmPosters" class="btn btn-primary">درج پوستر فیلم‌ ایرانی</NavLink>
+}
+else if (Category == "adminForeignFilmPosters")
+{
+    <PageTitle>@CategoryName</PageTitle>
+    <NavLink href="/admin/insertfilmposter/adminInsertForeignFilmPosters" class="btn btn-primary">درج پوستر فیلم خارجی</NavLink>
+}
+
+@if (filmposters == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="mt-10">
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">عناوین پوستر</th>
+                    <th scope="col">نام کارگردان و تهیه کننده</th>
+                    <th scope="col">تاریخ خلق</th>
+                    <th scope="col">ارزشمند</th>
+                    <th scope="col">کوتاه و بلند</th>
+                    <th scope="col">خارجی و داخلی</th>
+                    <th scope="col">گونه</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in filmposters.Result)
+                {
+                    <tr>
+                        <td>@item.TitleFa <br /> @item.TitleEn</td>
+                        <td>@item.Director <br /> @item.Producer</td>
+                        <td>@item.ProductionDate</td>
+                        <td>@item.Worth</td>
+                        <td>@item.ShortFeature</td>
+                        <td>@item.Foreign</td>
+                        <td>@item.Style</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@page "/admin/showfilmposter/{category}"
+@rendermode InteractiveWebAssembly
+@inject HttpClient _http;
+@using FIlmposter.Layout
+@layout SingleLayout
+
+@code {
+    [Parameter]
+    public string? Category { get; set; }
+    public string? CategoryName { get; set; }
+    [CascadingParameter]
+    public SingleLayout ParentLayout { get; set; }  // The CascadingParameter of the parent layout
+
+    // fethc the first records
+    @using FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilmPosters
+    private ResultGetFilmPostersServiceDto? filmposters;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Update subTitle of the parent layou
+        if (Category == "adminNationalFilmPosters")
+        {
+            CategoryName = "پوستر فیلم‌های‌ ایرانی";
+            if (ParentLayout != null) ParentLayout.UpdateTitle(CategoryName);
+        }
+        else if (Category == "adminForeignFilmPosters")
+        {
+            CategoryName = "پوستر فیلم‌های‌ خارجی";
+            if (ParentLayout != null) ParentLayout.UpdateTitle(CategoryName);
+        }
+        // fethc the first records
+        try
+        {
+            filmposters = await _http.GetFromJsonAsync<ResultGetFilmPostersServiceDto>("/api/FilmPosters");
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Request error: {ex.Message}");
+            // Handle error (show to user, etc.)
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Unexpected error: {ex}");
+        }
+    }
+}

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FIlmposter.bundle.scp.css"
+    },
+    {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\common\\KingSelector2\\KingSelector.min.css",
       "PackagePath": "staticwebassets\\SiteTemplate\\common\\KingSelector2\\KingSelector.min.css"
     },

@@ -10,7 +10,7 @@ namespace Filmposter.Domain.Common
     {
         public Guid Id { get; set; }
         public DateTime InsertDate { get; set; }
-        public DateTime UpdateDate { get; set; }
-        public DateTime DeleteDate { get; set; }
+        public DateTime? UpdateDate { get; set; }
+        public DateTime? DeleteDate { get; set; }
     }
 }

@@ -26,6 +26,7 @@ namespace Filmposter.Persistence.Contexts
 
         // Admin Entities
         public DbSet<FilmPosters> FilmPosters { get; set; }
+        public DbSet<FilmPosterScores> FilmPosterScores { get; set; }
         public DbSet<Articles> Articles { get; set; }
         public DbSet<ArticleCategories> ArticleCategories { get; set; }
         public DbSet<ArticleComments> ArticleComments { get; set; }

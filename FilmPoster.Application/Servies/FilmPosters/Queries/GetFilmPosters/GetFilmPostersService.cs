@@ -20,7 +20,6 @@ namespace FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilm
                     InsertDateTime = x.InsertDate,
                     Producer = x.Producer,
                     ProductionDate = x.ProductionDate,
-                    Score = x.Score,
                     ShortFeature = x.ShortFeature,
                     Summary = x.Summary,
                     TitleEn = x.TitleEn,

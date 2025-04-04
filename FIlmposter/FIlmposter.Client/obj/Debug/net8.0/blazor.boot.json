@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FIlmposter.Client",
   "resources": {
-    "hash": "sha256-ePaVIa5qHYdpUPZuVZLYb4mRmeD/RcTXQKZdPa2VHVU=",
+    "hash": "sha256-jquCjTJtZi70laV9ycu7i2Zr+9k4tdjo44PPmvSDsXE=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.e6rulwbmvp.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -17,6 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "AWSSDK.Core.wasm": "sha256-r0oIbyeUZMMR0wpNl/r3gnunB3haoXVWl4928e3OXSE=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-H1yH7iBNYt/rilvQT6qsv2frcFFOBUKBnRrGQ1AIHnI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-kPAmhH4D4UN/DyWkGyB1Sxs7tQyVDV150swtUfTSJJ8=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-ZB9Iu49s5SYUpy+xnFe+KIg2LeHGglqjWkohvxQ8m30=",
@@ -208,10 +209,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "FIlmposter.Client.wasm": "sha256-Bc9DqFK3k+YF82sd2v6DrBJAB8Psj7dg7d2RHXb3Xlk="
+      "FIlmposter.Client.wasm": "sha256-I1uDL2CKgNjqIGbXZFWZtc8vsfsVZahw1bgikS969NM="
     },
     "pdb": {
-      "FIlmposter.Client.pdb": "sha256-tNZW5ETFd7SRX4iKxyiGAlFTA1vCGf/KACgbdr4YkEA="
+      "FIlmposter.Client.pdb": "sha256-xk5XsPaqcOnxZnESkK61XoaqLbBzOl8NVUy7ipIiPdc="
     }
   },
   "cacheBootResources": true,

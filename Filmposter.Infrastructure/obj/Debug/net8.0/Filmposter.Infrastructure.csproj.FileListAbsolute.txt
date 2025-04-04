@@ -1,3 +1,9 @@
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.csproj.AssemblyReference.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.AssemblyInfoInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.AssemblyInfo.cs
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.csproj.CoreCompileInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.sourcelink.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Filmposter.Infrastructure.deps.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Filmposter.Infrastructure.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Filmposter.Infrastructure.pdb
@@ -7,12 +13,6 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Fi
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\FilmPoster.Application.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Filmposter.Domain.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\bin\Debug\net8.0\Filmposter.Common.pdb
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.csproj.AssemblyReference.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.AssemblyInfoInputs.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.AssemblyInfo.cs
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.csproj.CoreCompileInputs.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.sourcelink.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmpost.F9B8B22D.Up2Date
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\Filmposter.Infrastructure.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Infrastructure\obj\Debug\net8.0\refint\Filmposter.Infrastructure.dll

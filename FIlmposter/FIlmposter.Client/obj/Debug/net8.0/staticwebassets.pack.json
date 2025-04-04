@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FIlmposter.Client.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FIlmposter.Client.bundle.scp.css"
-    },
-    {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\wwwroot\\appsettings.Development.json",
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },

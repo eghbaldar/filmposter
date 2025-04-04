@@ -22,12 +22,44 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminBlog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbkJsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbkRhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminIncomes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbkluY29tZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminInsertFilmPoster.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbkluc2VydEZpbG1Qb3N0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminNewsletters.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbk5ld3NsZXR0ZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminOrders.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbk9yZGVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminShowFilmPoster.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pblNob3dGaWxtUG9zdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Admin/AdminUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pblVzZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/Routes.razor]
@@ -37,3 +69,23 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Layout/AdminNavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTmF2QmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Layout/MainFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5Gb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Layout/MainHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5IZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Layout/SingleLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFNpbmdsZUxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_PROJECT_/FilmPoster/FIlmposter/FIlmposter/FIlmposter/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1jl9suw9gw
