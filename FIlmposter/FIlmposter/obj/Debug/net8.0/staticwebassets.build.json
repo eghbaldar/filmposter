@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bAcVyl6xpD9RukfO2+Z0IaoENK+seRmMFjUkPtry25U=",
+  "Hash": "lqihbrTRD5tNvQQaqID0qo+sh7iUXYMdqXCPs+HGFOM=",
   "Source": "FIlmposter",
   "BasePath": "_content/FIlmposter",
   "Mode": "Default",
@@ -18029,6 +18029,25 @@
       "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\bootstrap.min.js",
+      "SourceId": "FIlmposter",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\",
+      "BasePath": "_content/FIlmposter",
+      "RelativePath": "SiteTemplate/js/bootstrap.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\bootstrap.min.js"
+    },
+    {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\circle-progress.js",
       "SourceId": "FIlmposter",
       "SourceType": "Discovered",
@@ -18274,6 +18293,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\main.js"
+    },
+    {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\popper.js",
+      "SourceId": "FIlmposter",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\",
+      "BasePath": "_content/FIlmposter",
+      "RelativePath": "SiteTemplate/js/popper.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\popper.js"
     },
     {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\progress-bar.min.js",

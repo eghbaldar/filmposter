@@ -1,4 +1,4 @@
-﻿/* bootstrap inner navbar  */
+﻿/* bootstrap stuff like => inner navbar, table ...  */
 .nav-item {
     font-size:20px;
 }
@@ -21,6 +21,11 @@ a {
 .card-box{
     margin-top:20px;
     margin-bottom:20px;
+}
+.bootstrapMenuDropdownListIcon svg{
+    color:white !important;
+    cursor:pointer;
+    right:0;
 }
 /*---------------------------------------------------------------
 header

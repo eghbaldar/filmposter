@@ -2,54 +2,226 @@
 {
     <PageTitle>@CategoryName</PageTitle>
     <NavLink href="/admin/insertfilmposter/adminInsertNationalFilmPosters" class="btn btn-primary">درج پوستر فیلم‌ ایرانی</NavLink>
+    @if (filmposters == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <div class="mt-10">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">عناوین پوستر</th>
+                        <th scope="col">نام کارگردان و تهیه کننده</th>
+                        <th scope="col">تاریخ خلق</th>
+                        <th scope="col">ارزشمند</th>
+                        <th scope="col">کوتاه و بلند</th>
+                        <th scope="col">خارجی و داخلی</th>
+                        <th scope="col">گونه</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in filmposters.Result)
+                    {
+                        if (!item.Foreign)
+                        {
+                            <tr>
+                                <td>@item.TitleFa <br /> @item.TitleEn</td>
+                                <td>@item.Director <br /> @item.Producer</td>
+                                <td>@item.ProductionDate</td>
+                                <td>
+                                    @{
+                                        if (item.Worth)
+                                        {
+                                            <span>ارزشمند</span>
+                                        }
+                                        else
+                                        {
+                                            <span>فاقد ارزش</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        if (item.ShortFeature)
+                                        {
+                                            <span>کوتاه</span>
+                                        }
+                                        else
+                                        {
+                                            <span>بلند</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        if (item.Foreign)
+                                        {
+                                            <span>خارجی</span>
+                                        }
+                                        else
+                                        {
+                                            <span>ایرانی</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        switch (item.Style)
+                                        {
+                                            case FilmposterStyleConstants.Fiction:
+                                                <span>داستانی</span>
+                                                break;
+                                            case FilmposterStyleConstants.Documentary:
+                                                <span>مستند</span>
+                                                break;
+                                            case FilmposterStyleConstants.Animation:
+                                                <span>انیمیشن</span>
+                                                break;
+                                            case FilmposterStyleConstants.Experimental:
+                                                <span>تجربی</span>
+                                                break;
+                                        }
+                                    }
+                                </td>
+                                <td class="text-right bootstrapMenuDropdownListIcon">
+                                    <div class="btn-group btn-group-sm">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5" />
+                                            </svg>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item" href="#">مشاهده</a>
+                                            <a class="dropdown-item" href="#">حذف</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
 }
 else if (Category == "adminForeignFilmPosters")
 {
     <PageTitle>@CategoryName</PageTitle>
     <NavLink href="/admin/insertfilmposter/adminInsertForeignFilmPosters" class="btn btn-primary">درج پوستر فیلم خارجی</NavLink>
-}
-
-@if (filmposters == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <div class="mt-10">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">عناوین پوستر</th>
-                    <th scope="col">نام کارگردان و تهیه کننده</th>
-                    <th scope="col">تاریخ خلق</th>
-                    <th scope="col">ارزشمند</th>
-                    <th scope="col">کوتاه و بلند</th>
-                    <th scope="col">خارجی و داخلی</th>
-                    <th scope="col">گونه</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in filmposters.Result)
-                {
+    @if (filmposters == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <div class="mt-10">
+            <table class="table table-dark">
+                <thead>
                     <tr>
-                        <td>@item.TitleFa <br /> @item.TitleEn</td>
-                        <td>@item.Director <br /> @item.Producer</td>
-                        <td>@item.ProductionDate</td>
-                        <td>@item.Worth</td>
-                        <td>@item.ShortFeature</td>
-                        <td>@item.Foreign</td>
-                        <td>@item.Style</td>
+                        <th scope="col">عناوین پوستر</th>
+                        <th scope="col">نام کارگردان و تهیه کننده</th>
+                        <th scope="col">تاریخ خلق</th>
+                        <th scope="col">ارزشمند</th>
+                        <th scope="col">کوتاه و بلند</th>
+                        <th scope="col">خارجی و داخلی</th>
+                        <th scope="col">گونه</th>
+                        <th scope="col"></th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+                </thead>
+                <tbody>
+                    @foreach (var item in filmposters.Result)
+                    {
+                        if (item.Foreign)
+                        {
+                            <tr>
+                                <td>@item.TitleFa <br /> @item.TitleEn</td>
+                                <td>@item.Director <br /> @item.Producer</td>
+                                <td>@item.ProductionDate</td>
+                                <td>
+                                    @{
+                                        if (item.Worth)
+                                        {
+                                            <span>ارزشمند</span>
+                                        }
+                                        else
+                                        {
+                                            <span>فاقد ارزش</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        if (item.ShortFeature)
+                                        {
+                                            <span>کوتاه</span>
+                                        }
+                                        else
+                                        {
+                                            <span>بلند</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        if (item.Foreign)
+                                        {
+                                            <span>خارجی</span>
+                                        }
+                                        else
+                                        {
+                                            <span>ایرانی</span>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        switch (item.Style)
+                                        {
+                                            case FilmposterStyleConstants.Fiction:
+                                                <span>داستانی</span>
+                                                break;
+                                            case FilmposterStyleConstants.Documentary:
+                                                <span>مستند</span>
+                                                break;
+                                            case FilmposterStyleConstants.Animation:
+                                                <span>انیمیشن</span>
+                                                break;
+                                            case FilmposterStyleConstants.Experimental:
+                                                <span>تجربی</span>
+                                                break;
+                                        }
+                                    }
+                                </td>
+                                <td class="text-right bootstrapMenuDropdownListIcon">
+                                    <div class="btn-group btn-group-sm">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5" />
+                                            </svg>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item" href="#">مشاهده</a>
+                                            <a class="dropdown-item" href="#">حذف</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
 }
 
 @page "/admin/showfilmposter/{category}"
 @rendermode InteractiveWebAssembly
 @inject HttpClient _http;
 @using FIlmposter.Layout
+@using Filmposter.Common.Constants;
 @layout SingleLayout
 
 @code {

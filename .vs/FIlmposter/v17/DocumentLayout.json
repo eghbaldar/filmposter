@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\components\\pages\\admin\\adminshowfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\components\\pages\\admin\\adminshowfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\components\\pages\\admin\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\components\\pages\\admin\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\components\\pages\\admin\\admininsertfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\components\\pages\\admin\\admininsertfilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminShowFilmPoster.razor",
-              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminShowFilmPoster.razor",
-              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminShowFilmPoster.razor",
-              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminShowFilmPoster.razor",
-              "RelativeToolTip": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminShowFilmPoster.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Title": "AdminInsertFilmPoster.razor",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "RelativeToolTip": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminInsertFilmPoster.razor",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwFkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T13:54:38.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminDashboard.razor",
-              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminDashboard.razor",
-              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminDashboard.razor",
-              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminDashboard.razor",
-              "RelativeToolTip": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminDashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T13:54:19.064Z",
+              "WhenOpened": "2025-04-04T14:44:41.186Z",
               "EditorCaption": ""
             }
           ]

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\FilmPoster.Application\FilmPoster.Application.csproj" />
+    <ProjectReference Include="..\..\Filmposter.Common\Filmposter.Common.csproj" />
     <ProjectReference Include="..\FIlmposter.Client\FIlmposter.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />
   </ItemGroup>

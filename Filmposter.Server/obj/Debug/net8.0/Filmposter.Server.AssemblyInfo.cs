@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Filmposter.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23104948b44249486f25d98073e8298441b86454")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e958ae9d15b3e3d2f838b149d27afbad5e5091f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Filmposter.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Filmposter.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

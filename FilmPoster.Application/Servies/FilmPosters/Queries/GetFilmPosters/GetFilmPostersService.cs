@@ -25,7 +25,10 @@ namespace FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilm
                     TitleEn = x.TitleEn,
                     TitleFa = x.TitleFa,
                     Worth = x.Worth,
-                    Slug = x.Slug
+                    Slug = x.Slug,
+                    Foreign = x.Foreign,
+                    Style = x.Style,
+                    Validation = x.Validation
                 })
                 .OrderByDescending(x => x.InsertDateTime)
                 .ToList();

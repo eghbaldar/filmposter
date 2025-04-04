@@ -2137,6 +2137,10 @@
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\bootstrap.min.js"
+    },
+    {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\circle-progress.js",
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\circle-progress.js"
     },
@@ -2187,6 +2191,10 @@
     {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\main.js",
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\main.js"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\popper.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\popper.js"
     },
     {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\progress-bar.min.js",

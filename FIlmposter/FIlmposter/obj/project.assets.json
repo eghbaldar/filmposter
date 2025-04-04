@@ -2013,6 +2013,7 @@
     "net8.0": [
       "FIlmposter.Client >= 1.0.0",
       "FilmPoster.Application >= 1.0.0",
+      "Filmposter.Common >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.8"
     ]
   },
@@ -2051,6 +2052,9 @@
           "projectReferences": {
             "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FilmPoster.Application\\FilmPoster.Application.csproj": {
               "projectPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FilmPoster.Application\\FilmPoster.Application.csproj"
+            },
+            "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Common\\Filmposter.Common.csproj": {
+              "projectPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Common\\Filmposter.Common.csproj"
             },
             "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj": {
               "projectPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter.Client\\FIlmposter.Client.csproj"

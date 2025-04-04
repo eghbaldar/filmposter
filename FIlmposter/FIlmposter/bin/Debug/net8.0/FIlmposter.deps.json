@@ -10,6 +10,7 @@
         "dependencies": {
           "FIlmposter.Client": "1.0.0",
           "FilmPoster.Application": "1.0.0",
+          "Filmposter.Common": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.8"
         },
         "runtime": {
