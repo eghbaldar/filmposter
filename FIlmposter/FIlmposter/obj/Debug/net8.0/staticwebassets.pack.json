@@ -2149,6 +2149,10 @@
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\count-to.js"
     },
     {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\custom.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\custom.js"
+    },
+    {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\gsap.js",
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\gsap.js"
     },

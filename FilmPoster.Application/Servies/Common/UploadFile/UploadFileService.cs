@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -10,6 +11,11 @@ namespace FilmPoster.Application.Servies.Common.UploadFile
 {
     public class UploadFileService
     {
+        private readonly IConfiguration _configuration;
+        public UploadFileService(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         public ResultUploadDto UploadFile(RequestUploadFileServiceDto req)
         {
             // check file ....
@@ -54,11 +60,19 @@ namespace FilmPoster.Application.Servies.Common.UploadFile
                     Filename = "",
                 };
             }
-            // create folder ...
-            string folder = $@"wwwroot\UploadedStuff\" +
+            //// create folder ...
+
+            //string folder = $@"wwwroot\UploadedStuff\" +
+            //    req.DirectoryROOT + @"\" +
+            //    req.DirectoryNameLevelParent + @"\" +
+            //    req.DirectoryNameLevelChild;
+
+            string relativePath = _configuration["BlazorRootPath"];
+            string folder = $@"{relativePath}\UploadedStuff\" +
                 req.DirectoryROOT + @"\" +
                 req.DirectoryNameLevelParent + @"\" +
                 req.DirectoryNameLevelChild;
+
             var uploadRootFolder = Path.Combine(Environment.CurrentDirectory, folder);
             if (!Directory.Exists(uploadRootFolder)) Directory.CreateDirectory(uploadRootFolder);
             string filename;

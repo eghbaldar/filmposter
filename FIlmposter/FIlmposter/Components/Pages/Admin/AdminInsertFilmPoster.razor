@@ -1,10 +1,10 @@
 ﻿@page "/admin/insertfilmposter/{category}"
 @rendermode InteractiveServer
 @inject HttpClient _http
+@inject IJSRuntime JS
 
 @using FIlmposter.Layout
 @layout SingleLayout
-<AdminNavBar />
 
 @if (Category == "adminInsertNationalFilmPosters")
 {
@@ -17,117 +17,118 @@ else if (Category == "adminInsertForeignFilmPosters")
     <NavLink href="/admin/showfilmposter/adminForeignFilmPosters" class="btn btn-primary">مشاهده پوستر فیلم‌های خارجی</NavLink>
 }
 
-<div class="card-box">
-    <div class="row mt-3">
-        <div class="col-12" id="divProfile">
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
-                </div>
-                <input type="text" @bind="filmPoster.TitleFa" class="form-control" id="txtEditFirstname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به انگلیسی</span>
-                </div>
-                <input type="text" @bind="filmPoster.TitleEn" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">کارگردان</span>
-                </div>
-                <input type="text" @bind="filmPoster.Director" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
-                </div>
-                <input type="text" @bind="filmPoster.Producer" class="form-control" id="txtEditSurname" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه فیلم</span>
-                </div>
-                <textarea class="form-control" @bind="filmPoster.Summary" rows="10" id="txtEditBio" aria-label="With textarea"></textarea>
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
-                </div>
-                <input id="txtProductionDate" @bind="filmPoster.ProductionDate" type="text" readonly class="form-control shamsidate">
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر</span>
-                </div>
-                <InputFile class="form-control" OnChange="@HandleFileSelected" id="filePoster" />
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
-                </div>
-                <select class="form-select" id="selectShortFeature" @bind="filmPoster.ShortFeature">
-                    <option>کوتاه</option>
-                    <option>نیمه بلند</option>
-                    <option>بلند</option>
-                    <option>سریال</option>
-                    <option>کاور فیلمنامه</option>
-                </select>
-            </div>
-            <div class="input-group input-group-sm mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
-                </div>
-                <select class="form-select" id="selectStyle" @bind="filmPoster.Style">
-                    <option>داستانی</option>
-                    <option>مستند</option>
-                    <option>انیمیشن</option>
-                    <option>تجربی</option>
-                </select>
-            </div>
-            <div class="alert alert-warning" role="alert">
+<EditForm EditContext="editContext">
+    <DataAnnotationsValidator />
+    <ValidationSummary class="filmposter-validation-summary" />
+
+    <div class="card-box">
+        <div class="row mt-3">
+            <div class="col-12" id="divProfile">
                 <div class="input-group input-group-sm mb-3">
-                    <div class="form-control">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
+                    </div>
+                    <input @ref="titleFaInput" class="@($"{GetFieldClass(nameof(filmPoster.TitleFa))} form-control")"
+                           id="txtTitleFa"
+                           @bind="filmPoster.TitleFa" />
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به انگلیسی</span>
+                    </div>
+                    <input type="text" @bind="filmPoster.TitleEn" class="form-control" id="txtTitleEn" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">کارگردان</span>
+                    </div>
+                    <input @ref="dierctorInput"
+                           class="@($"{GetFieldClass(nameof(filmPoster.Director))} form-control")"
+                           id="txtDirector"
+                           @bind="filmPoster.Director"
+                           aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
+                    </div>
+                    <input 
+                        @ref="producerInput"
+                        class="@($"{GetFieldClass(nameof(filmPoster.Producer))} form-control")"
+                        id="txtProducer"
+                        type="text"
+                        @bind="filmPoster.Producer" aria-label="Small" aria-describedby="inputGroup-sizing-sm"/>
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه اثر</span>
+                    </div>
+                    <textarea 
+                        @ref="summaryInput"
+                        class="@($"{GetFieldClass(nameof(filmPoster.Summary))} form-control")"
+                        @bind="filmPoster.Summary" rows="10" id="txtSummary" aria-label="With textarea"></textarea>
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
+                    </div>
+                    <input id="txtProductionDate" @bind="filmPoster.ProductionDate" type="text" readonly class="form-control shamsidate">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر</span>
+                    </div>
+                    <InputFile class="@($"{GetFieldClass(nameof(filmPoster.Filename))} form-control")"
+                        OnChange="@HandleFileSelected" @bind-value="filmPoster.File" id="filePoster" />                    
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
+                    </div>
+                    <select class="form-select" id="selectShortFeature" @bind="filmPoster.ShortFeature">
+                        <option>کوتاه</option>
+                        <option>نیمه بلند</option>
+                        <option>بلند</option>
+                        <option>سریال</option>
+                        <option>کاور فیلمنامه</option>
+                    </select>
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
+                    </div>
+                    <select class="form-select" id="selectStyle" @bind="filmPoster.Style">
+                        <option>داستانی</option>
+                        <option>مستند</option>
+                        <option>انیمیشن</option>
+                        <option>تجربی</option>
+                    </select>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="form-control">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                            </div>
+                            هست
+                            <label class="custom-control border-switch">
+                                <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
+                                <span class="border-switch-control-indicator"></span>
+                            </label>
+                            نیست
                         </div>
-                        هست
-                        <label class="custom-control border-switch">
-                            <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
-                            <span class="border-switch-control-indicator"></span>
-                        </label>
-                        نیست
                     </div>
                 </div>
-            </div>
-            <div>
-                <button @onclick="() => SubmitForm()">Add</button>
+                <div>
+                    <button @onclick="() => SubmitForm()">Add</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-@* @using Microsoft.AspNetCore.Components.WebAssembly.Hosting
-@inject IServiceProvider sp
-@if (sp.GetService<IWebAssemblyHostEnvironment>() is not null)
-{
-    var env = sp.GetRequiredService<IWebAssemblyHostEnvironment>();
-    environment = env.Environment;
-    basehttp = env.BaseAddress;
-}
-<h1>@environment</h1>
-<br/>
-<h1>@basehttp</h1>
- *@
+</EditForm>
+
 @code {
-        //     private async Task SubmitForm()
-        // {
-        //     Console.WriteLine("clicked");
-        // }
-    //string environment;
-    //string basehttp;
-    // [Inject]
-    // private HttpClient? _http { get; set; }  // Explicitly injecting here to confirm
 }
 
 

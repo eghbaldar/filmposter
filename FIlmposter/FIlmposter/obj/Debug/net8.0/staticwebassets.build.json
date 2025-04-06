@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lqihbrTRD5tNvQQaqID0qo+sh7iUXYMdqXCPs+HGFOM=",
+  "Hash": "a3lDsFUgDgWQiYVKhCmpJPtnpVn/JTudECvoLX/SPJI=",
   "Source": "FIlmposter",
   "BasePath": "_content/FIlmposter",
   "Mode": "Default",
@@ -18084,6 +18084,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\count-to.js"
+    },
+    {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\custom.js",
+      "SourceId": "FIlmposter",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\",
+      "BasePath": "_content/FIlmposter",
+      "RelativePath": "SiteTemplate/js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\custom.js"
     },
     {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\gsap.js",

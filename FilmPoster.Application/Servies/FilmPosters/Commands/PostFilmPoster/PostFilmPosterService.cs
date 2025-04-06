@@ -4,6 +4,7 @@ using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Servies.Common.UploadFile;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Text.RegularExpressions;
 
 namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
@@ -12,10 +13,13 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
     {
         private readonly IDataBaseContext _context;
         private readonly IMapper _mapper;
-        public PostFilmPosterService(IDataBaseContext context, IMapper mapper)
+        private readonly IConfiguration _configuration;
+
+        public PostFilmPosterService(IDataBaseContext context, IMapper mapper, IConfiguration configuration)
         {
             _context = context;
             _mapper = mapper;
+            _configuration = configuration;
         }
         public async Task<ResultDto> Execute(RequestPostFilmPosterServiceDto req)
         {
@@ -153,7 +157,7 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
         }
         private ResultUploadDto CreateFilename(IFormFile file, long userId, string maxSize)
         {
-            UploadFileService uploadPhotoService = new UploadFileService();
+            UploadFileService uploadPhotoService = new UploadFileService(_configuration);
             var filename = uploadPhotoService.UploadFile(new RequestUploadFileServiceDto
             {
                 Type = false,

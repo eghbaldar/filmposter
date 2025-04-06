@@ -72,3 +72,5 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\refint
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\FIlmposter.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\FIlmposter.genruntimeconfig.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\ref\FIlmposter.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
