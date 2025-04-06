@@ -8,5 +8,86 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmposter.Server.Controllers.FilmPostersController",
+    "Method": "Post",
+    "RelativePath": "api/FilmPosters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TitleFa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TitleEn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Director",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Producer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Summary",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxSize",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foreign",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Worth",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortFeature",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Style",
+        "Type": "System.Byte",
+        "IsRequired": false
+      },
+      {
+        "Name": "Validation",
+        "Type": "System.Byte",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -49,21 +49,20 @@ namespace Filmposter.Persistence.Contexts
         //{
         //    //modelBuilder.HasDefaultSchema("dbo");
         //}
-        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        // DbSet properties (unchanged, omitted for brevity)
+
+        private void UpdateTimestamps()
         {
             var modifiedEntries = ChangeTracker.Entries()
-               .Where(e =>
-                   e.State == EntityState.Modified ||
-                   e.State == EntityState.Added ||
-                   e.State == EntityState.Deleted
-               ).ToList();
+                .Where(e => e.State == EntityState.Modified || e.State == EntityState.Added || e.State == EntityState.Deleted)
+                .ToList();
 
             foreach (var entry in modifiedEntries)
             {
                 var entityType = entry.Context.Model.FindEntityType(entry.Entity.GetType());
-                var inserted = entityType.FindProperty("InsertDate");
-                var updated = entityType.FindProperty("UpdateDate");
-                var deleted = entityType.FindProperty("DeleteDate");
+                var inserted = entityType?.FindProperty("InsertDate");
+                var updated = entityType?.FindProperty("UpdateDate");
+                var deleted = entityType?.FindProperty("DeleteDate");
 
                 switch (entry.State)
                 {
@@ -82,43 +81,30 @@ namespace Filmposter.Persistence.Contexts
                         break;
                 }
             }
+        }
 
-            // Ensure asynchronous call to the base SaveChangesAsync
-            return await base.SaveChangesAsync(cancellationToken);
+        public int SaveChanges(bool acceptAllChangesOnSuccess)
+        {
+            UpdateTimestamps();
+            return base.SaveChanges(acceptAllChangesOnSuccess);
         }
 
         public override int SaveChanges()
         {
-            var modifiedEntries = ChangeTracker.Entries()
-           .Where(e =>
-               e.State == EntityState.Modified ||
-               e.State == EntityState.Added ||
-               e.State == EntityState.Deleted
-               ).ToList();
-            foreach (var entry in modifiedEntries)
-            {
-                var entityType = entry.Context.Model.FindEntityType(entry.Entity.GetType());
-                var inserted = entityType.FindProperty("InsertDate");
-                var updated = entityType.FindProperty("UpdateDate");
-                var deleted = entityType.FindProperty("DeleteDate");
-                switch (entry.State)
-                {
-                    case EntityState.Added:
-                        if (inserted != null) entry.Property("InsertDate").CurrentValue = DateTime.Now;
-                        break;
-                    case EntityState.Modified:
-                        if (updated != null) entry.Property("UpdateDate").CurrentValue = DateTime.Now;
-                        break;
-                    case EntityState.Deleted:
-                        if (deleted != null)
-                        {
-                            entry.Property("DeleteDate").CurrentValue = DateTime.Now;
-                            entry.State = EntityState.Modified;
-                        }
-                        break;
-                }
-            }
+            UpdateTimestamps();
             return base.SaveChanges();
+        }
+
+        public async Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
+        {
+            UpdateTimestamps();
+            return await base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            UpdateTimestamps();
+            return await base.SaveChangesAsync(cancellationToken);
         }
     }
 

@@ -1,9 +1,3 @@
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.csproj.AssemblyReference.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.AssemblyInfoInputs.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.AssemblyInfo.cs
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.csproj.CoreCompileInputs.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.sourcelink.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmposter.Persistence.deps.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmposter.Persistence.runtimeconfig.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmposter.Persistence.dll
@@ -14,6 +8,12 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmp
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\FilmPoster.Application.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmposter.Domain.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\bin\Debug\net8.0\Filmposter.Common.pdb
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.csproj.AssemblyReference.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.AssemblyInfoInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.AssemblyInfo.cs
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.csproj.CoreCompileInputs.cache
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.sourcelink.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmpost.3B60A008.Up2Date
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\Filmposter.Persistence.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Persistence\obj\Debug\net8.0\refint\Filmposter.Persistence.dll

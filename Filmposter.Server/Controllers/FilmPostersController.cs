@@ -19,10 +19,15 @@ namespace Filmposter.Server.Controllers
         {
             return Json(_filmPostersFacade.GetFilmPostersService.Execute());
         }
-        //[HttpPost]
-        //public IActionResult Post(RequestPostFilmPosterServiceDto req)
-        //{
-        //    return Json(_filmPostersFacade.PostFilmPosterService.Execute(req));
-        //}
+        [HttpPost]
+        [Consumes("multipart/form-data")]
+        public IActionResult Post([FromForm] RequestPostFilmPosterServiceDto model)
+        {
+            if (model == null) return BadRequest("Form data is missing");
+
+            var result = _filmPostersFacade.PostFilmPosterService.Execute(model);
+            return Json(result);
+        }
+
     }
 }

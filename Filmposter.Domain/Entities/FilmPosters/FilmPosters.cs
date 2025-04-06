@@ -11,6 +11,7 @@ namespace Filmposter.Domain.Entities.FilmPosters
     {
         public Guid UserId { get; set; }
         public virtual Filmposter.Domain.Entities.Users.Users User { get; set; }
+        public string UniqueCode { get; set; } // this unique code is used as a standard url like:filmposter.ir/Ujh56a
         public bool FilmPoster { get; set; } // true: it means we designed the poster
         public bool Foreign { get; set; } // true: foreign false: iranian
         public string TitleFa { get; set; }

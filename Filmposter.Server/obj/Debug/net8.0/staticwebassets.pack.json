@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192101-638794776619715604-0-original.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192101-638794776619715604-0-original.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192101-638794776619715604-0-thumb.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192101-638794776619715604-0-thumb.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192105-638794776650058984-0-original.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192105-638794776650058984-0-original.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192105-638794776650058984-0-thumb.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192105-638794776650058984-0-thumb.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192107-638794776679309345-0-original.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192107-638794776679309345-0-original.jpg"
+    },
+    {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Server\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192107-638794776679309345-0-thumb.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250405192107-638794776679309345-0-thumb.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Filmposter.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Filmposter.Server.props",
+      "PackagePath": "build\\Filmposter.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Filmposter.Server.props",
+      "PackagePath": "buildMultiTargeting\\Filmposter.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Filmposter.Server.props",
+      "PackagePath": "buildTransitive\\Filmposter.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

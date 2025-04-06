@@ -3,66 +3,88 @@ using Filmposter.Domain.Common;
 using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Servies.Common.UploadFile;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 
 namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
 {
-    public class PostFilmPosterService: IPostFilmPosterService
+    public class PostFilmPosterService : IPostFilmPosterService
     {
         private readonly IDataBaseContext _context;
         private readonly IMapper _mapper;
         public PostFilmPosterService(IDataBaseContext context, IMapper mapper)
-        {   
+        {
             _context = context;
             _mapper = mapper;
         }
         public async Task<ResultDto> Execute(RequestPostFilmPosterServiceDto req)
         {
-            if(req == null
+            // Validate input
+            if (req == null
                 || string.IsNullOrEmpty(req.TitleFa)
                 || string.IsNullOrEmpty(req.Director)
                 || string.IsNullOrEmpty(req.Producer)
-                || string.IsNullOrEmpty(req.Summary)) return new ResultDto { IsSuccess = false };
-
-            string baseSlug = GenerateSlug(req.TitleFa);
-            string uniqueSlug = EnsureUniqueSlug(baseSlug);
-            string uniqueCode = EnsureUniqueCode(GenerateRandomString());
-
-            using (var transaction = await _context.Database.BeginTransactionAsync())
+                || string.IsNullOrEmpty(req.Summary))
             {
-                try
-                {
-                    Filmposter.Domain.Entities.FilmPosters.FilmPosters filmPosters = new Filmposter.Domain.Entities.FilmPosters.FilmPosters();
-                    filmPosters = _mapper.Map<Filmposter.Domain.Entities.FilmPosters.FilmPosters>(req);
-                    filmPosters.Slug = uniqueSlug;
-                    //========================= Upload Headshot
-                    var file = CreateFilename(req.File, 0, req.maxSize); ;
-                    switch (file.Success)
-                    {
-                        case true:
-                            filmPosters.File = file.Filename;
-                            break;
-                        case false:
-                            return new ResultDto
-                            {
-                                IsSuccess = false,
-                                Message = file.Message,
-                            };
-                    }
-                    //========================= add tags
-
-                    _context.FilmPosters.Add(filmPosters);
-                    return new ResultDto { IsSuccess = true };
-                }
-                catch (Exception ex)
-                {
-                    // Step 4: Rollback the transaction if any error occurs
-                    await transaction.RollbackAsync();
-                    return new ResultDto { Message = ex.Message };
-                    // Optionally log the exception here
-                    //throw; // Re-throw the exception for higher-level handling
-                }
+                return new ResultDto { IsSuccess = false, Message = "Invalid input data" };
             }
+
+            try
+            {
+                string baseSlug = GenerateSlug(req.TitleFa);
+                string uniqueSlug = EnsureUniqueSlug(baseSlug);
+                string uniqueCode = EnsureUniqueCode(GenerateRandomString());
+
+                var strategy = _context.Database.CreateExecutionStrategy();
+                ResultDto result = null;
+
+                await strategy.ExecuteAsync(async () =>
+                {
+                    await using var transaction = await _context.Database.BeginTransactionAsync();
+
+                    try
+                    {
+                        var filmPosters = _mapper.Map<Filmposter.Domain.Entities.FilmPosters.FilmPosters>(req);
+                        filmPosters.Slug = uniqueSlug;
+                        filmPosters.UniqueCode = uniqueCode;
+                        filmPosters.UserId = Guid.Parse("0f8fc878-da77-4bb7-bc2c-665c299efe25");
+                        // Upload Headshot
+                        var file = CreateFilename(req.File, 0, req.maxSize);
+                        if (!file.Success)
+                        {
+                            await transaction.RollbackAsync();
+                            result = new ResultDto { IsSuccess = false, Message = file.Message };
+                            return;
+                        }
+                        filmPosters.File = file.Filename;
+
+                        // Add to context and save
+                        _context.FilmPosters.Add(filmPosters);
+                        await _context.SaveChangesAsync();
+                        await transaction.CommitAsync();
+
+                        result = new ResultDto { IsSuccess = true };
+                    }
+                    catch (Exception ex)
+                    {
+                        await transaction.RollbackAsync();
+                        result = new ResultDto { IsSuccess = false, Message = $"Transaction failed: {ex.Message}" };
+                    }
+                    finally
+                    {
+                        if (transaction != null)
+                        {
+                            await transaction.DisposeAsync();
+                        }
+                    }
+                });
+                return result ?? new ResultDto { IsSuccess = false, Message = "Unexpected failure in transaction" };
+            }
+            catch (Exception ex)
+            {
+                return new ResultDto { IsSuccess = false, Message = $"Pre-transaction error: {ex.Message}" };
+            }
+
         }
         public static string GenerateSlug(string title)
         {
@@ -106,7 +128,8 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
             string slug = baseSlug;
             int counter = 1;
 
-            while (_context.Articles.Any(a => a.Slug == slug))
+            // Check if slug already exists in the database
+            while (_context.FilmPosters.Any(a => a.Slug == slug))  // While the slug already exists, keep adding a counter
             {
                 slug = $"{baseSlug}-{counter}";
                 counter++;
@@ -118,8 +141,9 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
         {
             string uniqueCode = baseUniqueCode;
             int counter = 1;
-
-            while (_context.Articles.Any(a => a.UniqueCode == uniqueCode))
+            // Check if slug already exists in the database
+            var check = _context.FilmPosters.Any(a => a.UniqueCode == uniqueCode);
+            while (check)
             {
                 uniqueCode = $"{baseUniqueCode}-{counter}";
                 counter++;

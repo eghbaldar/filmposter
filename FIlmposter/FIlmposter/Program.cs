@@ -5,7 +5,7 @@ using System.Net.Http;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorComponents().AddInteractiveWebAssemblyComponents();
+builder.Services.AddRazorComponents().AddInteractiveServerComponents().AddInteractiveWebAssemblyComponents();
 
 // set API settings
 builder.Services.AddHttpClient();
@@ -63,6 +63,7 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
+    .AddInteractiveServerRenderMode()  // Add server render mode
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(FIlmposter.Client._Imports).Assembly);
 

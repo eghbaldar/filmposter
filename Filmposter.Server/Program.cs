@@ -23,8 +23,8 @@ var environment = builder.Environment.EnvironmentName;
 var ConStr = environment == "Development"
                        ? builder.Configuration.GetConnectionString("LocalServer")
                        : builder.Configuration.GetConnectionString("VpsServer");
-builder.Services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(x => x.UseSqlServer(ConStr));
 
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(x => x.UseSqlServer(ConStr));
 // Mapping
 builder.Services.AddAutoMapper(typeof(FilmPostersProfile));
 
