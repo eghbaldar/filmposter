@@ -2149,6 +2149,10 @@
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\components\\AdminInsertFilmPoster.js"
     },
     {
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminShowFilmPoster.js",
+      "PackagePath": "staticwebassets\\SiteTemplate\\js\\components\\AdminShowFilmPoster.js"
+    },
+    {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\count-to.js",
       "PackagePath": "staticwebassets\\SiteTemplate\\js\\count-to.js"
     },
@@ -2221,44 +2225,12 @@
       "PackagePath": "staticwebassets\\SiteTemplate\\mail\\contact.php"
     },
     {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409105607-638797929675095971-0-original.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409105607-638797929675095971-0-original.jpg"
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409134525-638798031254966777-0-original.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409134525-638798031254966777-0-original.jpg"
     },
     {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409105607-638797929675095971-0-thumb.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409105607-638797929675095971-0-thumb.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409113428-638797952682543647-0-original.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409113428-638797952682543647-0-original.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409113428-638797952682543647-0-thumb.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409113428-638797952682543647-0-thumb.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121439-638797976796150827-0-original.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121439-638797976796150827-0-original.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121439-638797976796150827-0-thumb.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121439-638797976796150827-0-thumb.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121842-638797979228288484-0-original.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121842-638797979228288484-0-original.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121842-638797979228288484-0-thumb.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121842-638797979228288484-0-thumb.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121940-638797979806516996-0-original.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121940-638797979806516996-0-original.jpg"
-    },
-    {
-      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121940-638797979806516996-0-thumb.jpg",
-      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409121940-638797979806516996-0-thumb.jpg"
+      "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409134525-638798031254966777-0-thumb.jpg",
+      "PackagePath": "staticwebassets\\UploadedStuff\\admin\\images\\admin-filmposter\\20250409134525-638798031254966777-0-thumb.jpg"
     },
     {
       "Id": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\app.css",

@@ -51,7 +51,7 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                         var filmPosters = _mapper.Map<Filmposter.Domain.Entities.FilmPosters.FilmPosters>(req);
                         filmPosters.Slug = uniqueSlug;
                         filmPosters.UniqueCode = uniqueCode;
-                        //
+                        //TODO: change the following line
                         filmPosters.UserId = Guid.Parse("0f8fc878-da77-4bb7-bc2c-665c299efe25");
                         // Upload Headshot
                         file = CreateFilename(req.File, 0, req.maxSize);

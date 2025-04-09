@@ -6,6 +6,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text;
 using Microsoft.JSInterop;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace FIlmposter.Components.Pages.Admin
 {
@@ -95,15 +96,16 @@ namespace FIlmposter.Components.Pages.Admin
             }
             return;
         }
-        private async Task Succeed()
+        private async Task Succeed(string foreign)
         {
             await JS.InvokeVoidAsync("KingSweetAlertCenterTimer", new
             {
                 title = "ثبت با موفقیت انجام شد.",
                 message = "اطلاعات با موفقیت ثبت شد.\n شما در حال انتقال به صفحه پوسترهای ایرانی هستید. منتظر بمانید ...",
             });
-            //await Task.Delay(4000);
-            Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");
+            // rediret (await Task.Delay(4000);)
+            if (foreign == "national") Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");            
+            else Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");
         }
         private void ValidateField()
         {
@@ -201,7 +203,7 @@ namespace FIlmposter.Components.Pages.Admin
                     Console.WriteLine($"Exception: {ex.Message}");
                 }
                 // the process is done successfully
-                await Succeed();
+                await Succeed(foreign);
             }
         }
         private async Task clearInputField()
