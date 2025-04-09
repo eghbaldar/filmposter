@@ -97,13 +97,17 @@ namespace FIlmposter.Components.Pages.Admin
         }
         private async Task Succeed()
         {
-            await JS.InvokeVoidAsync("Swal.fire", new
+            await JS.InvokeVoidAsync("KingSweetAlertCenterTimer", new
             {
-                title = "موفق",
-                text = "اطلاعات با موفقیت ثبت شد",
-                icon = "success",
-                confirmButtonText = "ادامه"
+                title = "ثبت با موفقیت انجام شد.",
+                message = "اطلاعات با موفقیت ثبت شد.\n شما در حال انتقال به صفحه پوسترهای ایرانی هستید. منتظر بمانید ...",
             });
+            //await Task.Delay(4000);
+            Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");
+        }
+        private void ValidateField()
+        {
+            editContext.Validate(); // Manually trigger field validation
         }
         #endregion
 
@@ -126,7 +130,11 @@ namespace FIlmposter.Components.Pages.Admin
                 }
             }
         }
-        private async Task SubmitForm()
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender) await JS.InvokeVoidAsync("initializePersianDatePicker");
+        }
+        private async Task SubmitForm(string type, string foreign)
         {
             // check validation
             if (!editContext.Validate() || !fileValidation) await CheckValidation();
@@ -145,14 +153,28 @@ namespace FIlmposter.Components.Pages.Admin
                     multipart.Add(new StringContent(filmPoster.Director ?? ""), "Director");
                     multipart.Add(new StringContent(filmPoster.Producer ?? ""), "Producer");
                     multipart.Add(new StringContent(filmPoster.Summary ?? ""), "Summary");
-                    multipart.Add(new StringContent(filmPoster.ProductionDate.ToString("yyyy-MM-dd")), "ProductionDate");
-                    multipart.Add(new StringContent(filmPoster.Foreign.ToString()), "Foreign");
                     multipart.Add(new StringContent(filmPoster.Worth.ToString()), "Worth");
                     multipart.Add(new StringContent(filmPoster.ShortFeature.ToString()), "ShortFeature");
                     multipart.Add(new StringContent(filmPoster.Style.ToString()), "Style");
                     multipart.Add(new StringContent(filmPoster.Validation.ToString()), "Validation");
                     multipart.Add(new StringContent(filmPoster.Filename.ToString()), "Filename");
                     multipart.Add(new StringContent("1250000"), "maxSize");
+                    
+                    if (foreign == "national")
+                    {
+                        filmPoster.Foreign = false; // Set the correct value for 'foreign' based on the category
+                        multipart.Add(new StringContent("false"), "foreign"); // Add 'false' in multipart as well (field name should match the DTO property)
+                    }
+                    else
+                    {
+                        filmPoster.Foreign = true; // Set the correct value for 'foreign' based on the category
+                        multipart.Add(new StringContent("true"), "foreign"); // Add 'true' in multipart as well (field name should match the DTO property)
+                    }
+
+                    var gregorianDateStr = await JS.InvokeAsync<string>("getGregorianProductionDate");
+                    filmPoster.ProductionDate = DateOnly.ParseExact(gregorianDateStr, "yyyy-MM-dd");
+                    multipart.Add(new StringContent(filmPoster.ProductionDate.ToString("yyyy-MM-dd")), "ProductionDate");
+
 
                     // Add the file if selected
                     if (selectedFile != null)
@@ -166,12 +188,12 @@ namespace FIlmposter.Components.Pages.Admin
 
                     if (response.IsSuccessStatusCode)
                     {
-                        // Success logic
+                        await clearInputField();
                     }
                     else
                     {
                         var error = await response.Content.ReadAsStringAsync();
-                        Console.WriteLine($"Upload failed: {error}");
+                        Console.WriteLine($"Process failed by APi: {error}");
                     }
                 }
                 catch (Exception ex)
@@ -181,6 +203,11 @@ namespace FIlmposter.Components.Pages.Admin
                 // the process is done successfully
                 await Succeed();
             }
+        }
+        private async Task clearInputField()
+        {
+            filmPoster = new RequestPostFilmPosterServiceDto(); // Reset model instance
+            editContext = new EditContext(filmPoster); // Reinitialize EditContext
         }
     }
 }

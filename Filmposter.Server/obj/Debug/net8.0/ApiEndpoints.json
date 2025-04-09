@@ -79,7 +79,7 @@
       },
       {
         "Name": "ShortFeature",
-        "Type": "System.Boolean",
+        "Type": "System.Byte",
         "IsRequired": false
       },
       {

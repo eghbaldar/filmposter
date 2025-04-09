@@ -1,4 +1,5 @@
-﻿@if (Category == "adminNationalFilmPosters")
+﻿@using Filmposter.Common.Constants;
+@if (Category == "adminNationalFilmPosters")
 {
     <PageTitle>@CategoryName</PageTitle>
     <NavLink href="/admin/insertfilmposter/adminInsertNationalFilmPosters" class="btn btn-primary">درج پوستر فیلم‌ ایرانی</NavLink>
@@ -45,13 +46,29 @@
                                 </td>
                                 <td>
                                     @{
-                                        if (item.ShortFeature)
+                                        switch (item.ShortFeature)
                                         {
-                                            <span>کوتاه</span>
-                                        }
-                                        else
-                                        {
-                                            <span>بلند</span>
+                                            case @FilmposterShortFeatureConstants.Short:
+                                                <span>کوتاه</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Feature:
+                                                <span>بلند</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.MidLength:
+                                                <span>نیمه بلند</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Series:
+                                                <span>سریال</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Theater:
+                                                <span>تئاتر</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.ScriptCovert:
+                                                <span>کاور فیلمنامه</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.BookCover:
+                                                <span>جلد کتاب</span>
+                                                break;
                                         }
                                     }
                                 </td>
@@ -154,13 +171,29 @@ else if (Category == "adminForeignFilmPosters")
                                 </td>
                                 <td>
                                     @{
-                                        if (item.ShortFeature)
+                                        switch (item.ShortFeature)
                                         {
-                                            <span>کوتاه</span>
-                                        }
-                                        else
-                                        {
-                                            <span>بلند</span>
+                                            case @FilmposterShortFeatureConstants.Short:
+                                                <span>کوتاه</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Feature:
+                                                <span>بلند</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.MidLength:
+                                                <span>نیمه بلند</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Series:
+                                                <span>سریال</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.Theater:
+                                                <span>تئاتر</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.ScriptCovert:
+                                                <span>کاور فیلمنامه</span>
+                                                break;
+                                            case @FilmposterShortFeatureConstants.BookCover:
+                                                <span>جلد کتاب</span>
+                                                break;
                                         }
                                     }
                                 </td>
@@ -225,5 +258,5 @@ else if (Category == "adminForeignFilmPosters")
 @layout SingleLayout
 
 @code {
-   
+
 }

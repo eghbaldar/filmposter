@@ -21,11 +21,11 @@ namespace Filmposter.Server.Controllers
         }
         [HttpPost]
         [Consumes("multipart/form-data")]
-        public IActionResult Post([FromForm] RequestPostFilmPosterServiceDto model)
+        public async Task<IActionResult> Post([FromForm] RequestPostFilmPosterServiceDto model)
         {
             if (model == null) return BadRequest("Form data is missing");
 
-            var result = _filmPostersFacade.PostFilmPosterService.Execute(model);
+            var result = await _filmPostersFacade.PostFilmPosterService.Execute(model);
             return Json(result);
         }
 

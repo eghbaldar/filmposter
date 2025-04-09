@@ -22,8 +22,8 @@ namespace Filmposter.Domain.Entities.FilmPosters
         public string Summary { get; set; }
         public DateOnly ProductionDate { get; set; }
         public string File { get; set; }
-        public bool ShortFeature { get; set; } // true: feature false:short
-        public byte Style { get; set; }  // 0: fiction 1: doc 2: aniamtion 3: experimental 4:series 5:script cover
+        public byte ShortFeature { get; set; } // FilmposterShortFeatureConstants.cs
+        public byte Style { get; set; }  // FilmposterStyleConstants.cs
         public byte Validation { get; set; } // 0: under consideration 1: valid 2: invalid
         public bool Worth { get; set; } // true: this poster is worth in our opionin [admin section]
     }

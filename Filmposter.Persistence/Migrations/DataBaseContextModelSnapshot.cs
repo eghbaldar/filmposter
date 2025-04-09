@@ -497,8 +497,8 @@ namespace Filmposter.Persistence.Migrations
                     b.Property<DateOnly>("ProductionDate")
                         .HasColumnType("date");
 
-                    b.Property<bool>("ShortFeature")
-                        .HasColumnType("bit");
+                    b.Property<byte>("ShortFeature")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Slug")
                         .IsRequired()

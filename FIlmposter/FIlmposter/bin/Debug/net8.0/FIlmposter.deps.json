@@ -11,7 +11,8 @@
           "FIlmposter.Client": "1.0.0",
           "FilmPoster.Application": "1.0.0",
           "Filmposter.Common": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.8"
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.8",
+          "PersianDateTime.Core": "2.0.5"
         },
         "runtime": {
           "FIlmposter.dll": {}
@@ -339,6 +340,14 @@
             "assetType": "runtime",
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.325.11113"
+          }
+        }
+      },
+      "PersianDateTime.Core/2.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
           }
         }
       },
@@ -692,6 +701,13 @@
       "sha512": "sha512-Z0hIB2oeNqPOO0MYD0wkLpEe0LangoF3BSdMLLF5wft/rndYoXhLQvWni1OxymlWj+1adswAps2ZlrPmD9ZhBg==",
       "path": "microsoft.win32.systemevents/9.0.3",
       "hashPath": "microsoft.win32.systemevents.9.0.3.nupkg.sha512"
+    },
+    "PersianDateTime.Core/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jZToOx++M7s0BA3kG3kDn8S15zof139Td8ISza0c6Q11bSs14rmpcXE/TA4agWjYMYnoCnevE7b8Ru5nFPMziA==",
+      "path": "persiandatetime.core/2.0.5",
+      "hashPath": "persiandatetime.core.2.0.5.nupkg.sha512"
     },
     "RestSharp/112.1.1-alpha.0.4": {
       "type": "package",

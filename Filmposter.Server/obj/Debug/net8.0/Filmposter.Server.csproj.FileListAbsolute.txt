@@ -21,9 +21,11 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -149,5 +151,3 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\refint\Fil
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.genruntimeconfig.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\ref\Filmposter.Server.dll
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

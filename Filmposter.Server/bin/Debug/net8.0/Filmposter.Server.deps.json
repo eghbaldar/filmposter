@@ -11,6 +11,7 @@
           "FilmPoster.Application": "1.0.0",
           "Filmposter.Infrastructure": "1.0.0",
           "Filmposter.Persistence": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"

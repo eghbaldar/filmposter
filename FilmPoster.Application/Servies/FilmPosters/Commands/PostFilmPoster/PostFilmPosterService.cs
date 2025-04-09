@@ -45,15 +45,16 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                 await strategy.ExecuteAsync(async () =>
                 {
                     await using var transaction = await _context.Database.BeginTransactionAsync();
-
+                    var file = new ResultUploadDto();
                     try
                     {
                         var filmPosters = _mapper.Map<Filmposter.Domain.Entities.FilmPosters.FilmPosters>(req);
                         filmPosters.Slug = uniqueSlug;
                         filmPosters.UniqueCode = uniqueCode;
+                        //
                         filmPosters.UserId = Guid.Parse("0f8fc878-da77-4bb7-bc2c-665c299efe25");
                         // Upload Headshot
-                        var file = CreateFilename(req.File, 0, req.maxSize);
+                        file = CreateFilename(req.File, 0, req.maxSize);
                         if (!file.Success)
                         {
                             await transaction.RollbackAsync();
@@ -61,7 +62,6 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                             return;
                         }
                         filmPosters.File = file.Filename;
-
                         // Add to context and save
                         _context.FilmPosters.Add(filmPosters);
                         await _context.SaveChangesAsync();
@@ -72,14 +72,8 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                     catch (Exception ex)
                     {
                         await transaction.RollbackAsync();
+                        await DeleteFile(file);
                         result = new ResultDto { IsSuccess = false, Message = $"Transaction failed: {ex.Message}" };
-                    }
-                    finally
-                    {
-                        if (transaction != null)
-                        {
-                            await transaction.DisposeAsync();
-                        }
                     }
                 });
                 return result ?? new ResultDto { IsSuccess = false, Message = "Unexpected failure in transaction" };
@@ -89,6 +83,15 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                 return new ResultDto { IsSuccess = false, Message = $"Pre-transaction error: {ex.Message}" };
             }
 
+        }
+        public async Task DeleteFile(ResultUploadDto req)
+        {
+            UploadFileService uploadPhotoService = new UploadFileService(_configuration);
+            await uploadPhotoService.Delete(new RequestDeleteFileServiceDto
+            {
+                fileName = req.Filename,
+                path = UploadFileStaticPath.Filmposter,
+            });
         }
         public static string GenerateSlug(string title)
         {
@@ -161,9 +164,7 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
             var filename = uploadPhotoService.UploadFile(new RequestUploadFileServiceDto
             {
                 Type = false,
-                DirectoryROOT = "admin",
-                DirectoryNameLevelParent = "images",
-                DirectoryNameLevelChild = "admin-filmposter",
+                Path = UploadFileStaticPath.Filmposter,
                 Extension = new string[] { ".jpg", ".png", ".bmp", ".jpeg" }, // always must be in way of lowerCase()s
                 FileSize = maxSize,
                 File = file,

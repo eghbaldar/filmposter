@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -68,10 +69,7 @@ namespace FilmPoster.Application.Servies.Common.UploadFile
             //    req.DirectoryNameLevelChild;
 
             string relativePath = _configuration["BlazorRootPath"];
-            string folder = $@"{relativePath}\UploadedStuff\" +
-                req.DirectoryROOT + @"\" +
-                req.DirectoryNameLevelParent + @"\" +
-                req.DirectoryNameLevelChild;
+            string folder = $@"{relativePath}\{req.Path}";
 
             var uploadRootFolder = Path.Combine(Environment.CurrentDirectory, folder);
             if (!Directory.Exists(uploadRootFolder)) Directory.CreateDirectory(uploadRootFolder);
@@ -189,5 +187,31 @@ namespace FilmPoster.Application.Servies.Common.UploadFile
             }
             return null;
         }
+        public async Task<ResultUploadDto> Delete(RequestDeleteFileServiceDto req)
+        {
+            try
+            {
+                string relativePath = _configuration["BlazorRootPath"];
+                string folder = $@"{relativePath}\{req.path}";
+                var fethcFiles = Directory.GetFiles(folder).Where(x => x.Contains(req.fileName)).ToList();
+                if (fethcFiles.Any())
+                {
+                    foreach(var _f in fethcFiles)
+                    {
+                        System.IO.File.Delete(_f);
+                    }
+                    return new ResultUploadDto { Success = true, };
+                } else return new ResultUploadDto { Success = false, };
+            }
+            catch (Exception ex)
+            {
+                return new ResultUploadDto
+                {
+                    Success = false,
+                    Message = ex.Message,
+                };
+            }
+        }
     }
 }
+                              

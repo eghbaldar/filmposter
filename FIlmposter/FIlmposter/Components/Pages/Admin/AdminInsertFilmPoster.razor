@@ -2,9 +2,15 @@
 @rendermode InteractiveServer
 @inject HttpClient _http
 @inject IJSRuntime JS
-
+@inject NavigationManager Navigation // uses to redirect to another component in behind code
+@using FIlmposter.Utilities.Helpers
+@using Filmposter.Common.Constants;
 @using FIlmposter.Layout
 @layout SingleLayout
+
+<HeadContent>
+    <script src="sitetemplate/js/components/admininsertfilmposter.js"></script>
+</HeadContent>
 
 @if (Category == "adminInsertNationalFilmPosters")
 {
@@ -30,6 +36,7 @@ else if (Category == "adminInsertForeignFilmPosters")
                     </div>
                     <input @ref="titleFaInput" class="@($"{GetFieldClass(nameof(filmPoster.TitleFa))} form-control")"
                            id="txtTitleFa"
+                           @onblur="ValidateField"
                            @bind="filmPoster.TitleFa" />
                 </div>
                 <div class="input-group input-group-sm mb-3">
@@ -46,63 +53,71 @@ else if (Category == "adminInsertForeignFilmPosters")
                            class="@($"{GetFieldClass(nameof(filmPoster.Director))} form-control")"
                            id="txtDirector"
                            @bind="filmPoster.Director"
+                           @onblur="ValidateField"
                            aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
                     </div>
-                    <input 
-                        @ref="producerInput"
-                        class="@($"{GetFieldClass(nameof(filmPoster.Producer))} form-control")"
-                        id="txtProducer"
-                        type="text"
-                        @bind="filmPoster.Producer" aria-label="Small" aria-describedby="inputGroup-sizing-sm"/>
+                    <input @ref="producerInput"
+                           class="@($"{GetFieldClass(nameof(filmPoster.Producer))} form-control")"
+                           @onblur="ValidateField"
+                           id="txtProducer"
+                           type="text"
+                           @bind="filmPoster.Producer" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه اثر</span>
                     </div>
-                    <textarea 
-                        @ref="summaryInput"
-                        class="@($"{GetFieldClass(nameof(filmPoster.Summary))} form-control")"
-                        @bind="filmPoster.Summary" rows="10" id="txtSummary" aria-label="With textarea"></textarea>
+                    <textarea @ref="summaryInput"
+                              class="@($"{GetFieldClass(nameof(filmPoster.Summary))} form-control")"
+                              @onblur="ValidateField"
+                              @bind="filmPoster.Summary" rows="10" id="txtSummary" aria-label="With textarea"></textarea>
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
                     </div>
-                    <input id="txtProductionDate" @bind="filmPoster.ProductionDate" type="text" readonly class="form-control shamsidate">
+                    @*
+                    // [txtProductionDate] will be set from blazor.razor.cs method & /wwwroot/sitetemplate/js/custom.js
+                    // for example check: AdminInsertFilmPoster.razor.cs
+                    *@
+                    <input id="txtProductionDate" type="text" readonly @bind="filmPoster.ProductionDate" class="form-control shamsidate">
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر</span>
                     </div>
-                    <InputFile class="@($"{GetFieldClass(nameof(filmPoster.Filename))} form-control")"
-                        OnChange="@HandleFileSelected" @bind-value="filmPoster.File" id="filePoster" />                    
+                    <InputFile @onblur="ValidateField"
+                        class="@($"{GetFieldClass(nameof(filmPoster.Filename))} form-control")"
+                               OnChange="@HandleFileSelected" @bind-value="filmPoster.File" id="filePoster" />
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
                     </div>
-                    <select class="form-select" id="selectShortFeature" @bind="filmPoster.ShortFeature">
-                        <option>کوتاه</option>
-                        <option>نیمه بلند</option>
-                        <option>بلند</option>
-                        <option>سریال</option>
-                        <option>کاور فیلمنامه</option>
-                    </select>
+                    <InputSelect @bind-Value="filmPoster.ShortFeature" class="form-select">
+                        <option value="@FilmposterShortFeatureConstants.Short">کوتاه</option>
+                        <option value="@FilmposterShortFeatureConstants.MidLength">نیمه بلند</option>
+                        <option value="@FilmposterShortFeatureConstants.Feature">بلند</option>
+                        <option value="@FilmposterShortFeatureConstants.Series">سریال</option>
+                        <option value="@FilmposterShortFeatureConstants.ScriptCovert">کاور فیلمنامه</option>
+                        <option value="@FilmposterShortFeatureConstants.Theater">تئاتر</option>
+                        <option value="@FilmposterShortFeatureConstants.BookCover">جلد کتاب</option>
+                    </InputSelect>
                 </div>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
                     </div>
-                    <select class="form-select" id="selectStyle" @bind="filmPoster.Style">
-                        <option>داستانی</option>
-                        <option>مستند</option>
-                        <option>انیمیشن</option>
-                        <option>تجربی</option>
-                    </select>
+                    <InputSelect @bind-Value="filmPoster.Style" class="form-select">
+                        <option value="@FilmposterStyleConstants.Fiction">داستانی</option>
+                        <option value="@FilmposterStyleConstants.Documentary">مستند</option>
+                        <option value="@FilmposterStyleConstants.Animation">انیمیشن</option>
+                        <option value="@FilmposterStyleConstants.Experimental">تجربی</option>
+                    </InputSelect>
                 </div>
                 <div class="alert alert-warning" role="alert">
                     <div class="input-group input-group-sm mb-3">
@@ -120,7 +135,14 @@ else if (Category == "adminInsertForeignFilmPosters")
                     </div>
                 </div>
                 <div>
-                    <button @onclick="() => SubmitForm()">Add</button>
+                    @if (Category == "adminInsertNationalFilmPosters")
+                    {
+                        <button @onclick="@(e => SubmitForm("insert","national"))">Check</button>
+                    }
+                    else if (Category == "adminInsertForeignFilmPosters")
+                    {
+                        <button @onclick="@(e => SubmitForm("insert","foreign"))">Check</button>
+                    }                    
                 </div>
             </div>
         </div>
@@ -130,5 +152,4 @@ else if (Category == "adminInsertForeignFilmPosters")
 
 @code {
 }
-
 

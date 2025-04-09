@@ -10,9 +10,7 @@ namespace FilmPoster.Application.Servies.Common.UploadFile
     public class RequestUploadFileServiceDto
     {
         public bool Type { get; set; } //0=> photo 1=> other
-        public string DirectoryROOT { get; set; } // W => wwwroot + W 
-        public string DirectoryNameLevelParent { get; set; } // Y=> wwwroot + W + Y 
-        public string DirectoryNameLevelChild { get; set; } // Z => wwwroot + W + Y + Z
+        public string Path { get; set; }
         public IFormFile File { get; set; }
         public string[] Extension { get; set; } // acceptable extension
         public string FileSize { get; set; } // acceptable fileSize

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Filmposter.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6a519920d6cb97d437f1e3292124b51569d9373")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f95ade4a900800466178d24e75b41e4cfc07e39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Filmposter.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Filmposter.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

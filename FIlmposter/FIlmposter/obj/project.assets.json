@@ -672,6 +672,19 @@
           }
         }
       },
+      "PersianDateTime.Core/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "RestSharp/112.1.1-alpha.0.4": {
         "type": "package",
         "compile": {
@@ -1763,6 +1776,19 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PersianDateTime.Core/2.0.5": {
+      "sha512": "jZToOx++M7s0BA3kG3kDn8S15zof139Td8ISza0c6Q11bSs14rmpcXE/TA4agWjYMYnoCnevE7b8Ru5nFPMziA==",
+      "type": "package",
+      "path": "persiandatetime.core/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PersianDateTime.Core.dll",
+        "lib/netstandard2.0/PersianDateTime.Core.xml",
+        "persiandatetime.core.2.0.5.nupkg.sha512",
+        "persiandatetime.core.nuspec"
+      ]
+    },
     "RestSharp/112.1.1-alpha.0.4": {
       "sha512": "tAhvIS/HApzAScDDXw/WalkSMzVtu3bcmkbLdj9R+K1n+Zhenkos7QmqYQWfz9VuNY1bBljnyw7IZWohkG4S2g==",
       "type": "package",
@@ -2011,7 +2037,8 @@
       "FIlmposter.Client >= 1.0.0",
       "FilmPoster.Application >= 1.0.0",
       "Filmposter.Common >= 1.0.0",
-      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.8"
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.8",
+      "PersianDateTime.Core >= 2.0.5"
     ]
   },
   "packageFolders": {
@@ -2077,6 +2104,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[8.0.8, )"
+          },
+          "PersianDateTime.Core": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           }
         },
         "imports": [
