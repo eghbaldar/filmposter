@@ -57,9 +57,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
+            "Mapster": {
               "target": "Package",
-              "version": "[14.0.0, )"
+              "version": "[7.4.2-pre02, )"
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
@@ -284,12 +284,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[14.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -464,6 +458,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.2-pre02, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

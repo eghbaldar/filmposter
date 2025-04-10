@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "v2ehLdn2l2Q=",
+  "dgSpecHash": "TYfPnOM7oog=",
   "success": true,
   "projectFilePath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FilmPoster.Application\\FilmPoster.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kinh\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\Kinh\\.nuget\\packages\\mapster\\7.4.2-pre02\\mapster.7.4.2-pre02.nupkg.sha512",
+    "C:\\Users\\Kinh\\.nuget\\packages\\mapster.core\\1.2.3-pre02\\mapster.core.1.2.3-pre02.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",

@@ -104,8 +104,8 @@ namespace FIlmposter.Components.Pages.Admin
                 message = "اطلاعات با موفقیت ثبت شد.\n شما در حال انتقال به صفحه پوسترهای ایرانی هستید. منتظر بمانید ...",
             });
             // rediret (await Task.Delay(4000);)
-            if (foreign == "national") Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");            
-            else Navigation.NavigateTo("/admin/showfilmposter/adminNationalFilmPosters");
+            if (foreign == "national") Navigation.NavigateTo("/admin/showfilmposter/nationalFilmPosters");            
+            else Navigation.NavigateTo("/admin/showfilmposter/foreignFilmPosters");
         }
         private void ValidateField()
         {
@@ -121,11 +121,11 @@ namespace FIlmposter.Components.Pages.Admin
                 // Update subTitle of the parent layout
                 switch (Category)
                 {
-                    case "adminInsertNationalFilmPosters":
+                    case "insertNationalFilmPosters":
                         CategoryName = "درج پوستر فیلم ایرانی";
                         ParentLayout.UpdateTitle(CategoryName);
                         break;
-                    case "adminInsertForeignFilmPosters":
+                    case "insertForeignFilmPosters":
                         CategoryName = "درج پوستر فیلم‌ خارجی";
                         ParentLayout.UpdateTitle(CategoryName);
                         break;

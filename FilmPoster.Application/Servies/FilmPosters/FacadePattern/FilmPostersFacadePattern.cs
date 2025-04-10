@@ -1,8 +1,9 @@
-﻿using AutoMapper;
-using FilmPoster.Application.Interfaces.Contexts;
+﻿using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Interfaces.FacadePattern;
 using FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster;
+using FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById;
 using FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilmPosters;
+using MapsterMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -16,13 +17,11 @@ namespace FilmPoster.Application.Servies.FilmPosters.FacadePattern
     public class FilmPostersFacadePattern: IFilmPostersFacade
     {
         private readonly IDataBaseContext _context;
-        private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
 
-        public FilmPostersFacadePattern(IDataBaseContext context, IMapper mapper, IConfiguration configuration)
+        public FilmPostersFacadePattern(IDataBaseContext context,IConfiguration configuration)
         {
             _context = context;
-            _mapper = mapper;
             _configuration = configuration;
         }
         // Get NationFilmPostersService
@@ -35,7 +34,13 @@ namespace FilmPoster.Application.Servies.FilmPosters.FacadePattern
         public PostFilmPosterService _postFilmPosterService;
         public PostFilmPosterService PostFilmPosterService
         {
-            get { return _postFilmPosterService = _postFilmPosterService ?? new PostFilmPosterService(_context, _mapper, _configuration); }
+            get { return _postFilmPosterService = _postFilmPosterService ?? new PostFilmPosterService(_context, _configuration); }
+        }
+        //Get FilmPosterByIdService
+        public GetFilmPosterByIdService _getFilmPosterByIdService;
+        public GetFilmPosterByIdService GetFilmPosterByIdService
+        {
+            get { return _getFilmPosterByIdService = _getFilmPosterByIdService ?? new GetFilmPosterByIdService(_context); }
         }
     }
 }

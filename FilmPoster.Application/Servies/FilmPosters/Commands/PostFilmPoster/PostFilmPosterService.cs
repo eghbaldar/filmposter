@@ -1,7 +1,8 @@
-﻿using AutoMapper;
-using Filmposter.Domain.Common;
+﻿using Filmposter.Domain.Common;
 using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Servies.Common.UploadFile;
+using Mapster;
+using MapsterMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -12,13 +13,11 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
     public class PostFilmPosterService : IPostFilmPosterService
     {
         private readonly IDataBaseContext _context;
-        private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
 
-        public PostFilmPosterService(IDataBaseContext context, IMapper mapper, IConfiguration configuration)
+        public PostFilmPosterService(IDataBaseContext context,IConfiguration configuration)
         {
             _context = context;
-            _mapper = mapper;
             _configuration = configuration;
         }
         public async Task<ResultDto> Execute(RequestPostFilmPosterServiceDto req)
@@ -48,7 +47,7 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
                     var file = new ResultUploadDto();
                     try
                     {
-                        var filmPosters = _mapper.Map<Filmposter.Domain.Entities.FilmPosters.FilmPosters>(req);
+                        var filmPosters = req.Adapt<Filmposter.Domain.Entities.FilmPosters.FilmPosters>();
                         filmPosters.Slug = uniqueSlug;
                         filmPosters.UniqueCode = uniqueCode;
                         //TODO: change the following line

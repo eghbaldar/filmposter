@@ -94,5 +94,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmposter.Server.Controllers.FilmPostersController",
+    "Method": "GetById",
+    "RelativePath": "api/FilmPosters/GetById/{posterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "posterId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

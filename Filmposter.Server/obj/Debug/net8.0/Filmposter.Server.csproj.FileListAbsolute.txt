@@ -6,7 +6,6 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Filmposter
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Filmposter.Server.runtimeconfig.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Filmposter.Server.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Filmposter.Server.pdb
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\AutoMapper.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Azure.Core.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Azure.Identity.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Humanizer.dll
@@ -134,7 +133,6 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.AssemblyInfoInputs.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.AssemblyInfo.cs
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.csproj.CoreCompileInputs.cache
-D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.MvcApplicationPartsAssemblyInfo.cs
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.MvcApplicationPartsAssemblyInfo.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.sourcelink.json
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\staticwebassets.build.json
@@ -151,3 +149,5 @@ D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\refint\Fil
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\Filmposter.Server.genruntimeconfig.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\obj\Debug\net8.0\ref\Filmposter.Server.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Mapster.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\Filmposter.Server\bin\Debug\net8.0\Mapster.Core.dll

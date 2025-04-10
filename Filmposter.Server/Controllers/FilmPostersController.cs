@@ -1,5 +1,6 @@
 ﻿using FilmPoster.Application.Interfaces.FacadePattern;
 using FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster;
+using FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.CodeAnalysis;
 
@@ -19,6 +20,16 @@ namespace Filmposter.Server.Controllers
         {
             return Json(_filmPostersFacade.GetFilmPostersService.Execute());
         }
+        [HttpGet]
+        [Route("GetById/{posterId}")]
+        //https://www.binaryintellect.net/articles/9db02aa1-c193-421e-94d0-926e440ed297.aspx
+        public IActionResult GetById(Guid posterId)
+        {
+            return Json(_filmPostersFacade.GetFilmPosterByIdService.Execute(new RequestGetFilmPosterByIdDto
+            {
+                PosterId = posterId
+            }));
+        }
         [HttpPost]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> Post([FromForm] RequestPostFilmPosterServiceDto model)
@@ -28,6 +39,5 @@ namespace Filmposter.Server.Controllers
             var result = await _filmPostersFacade.PostFilmPosterService.Execute(model);
             return Json(result);
         }
-
     }
 }

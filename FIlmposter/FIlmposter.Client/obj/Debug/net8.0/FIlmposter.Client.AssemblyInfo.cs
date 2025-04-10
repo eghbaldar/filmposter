@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FIlmposter.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92780bca04919d3b5ec33fc3d3a6bcfdad06a31a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe73baddb222a3240f0ef01f534c1f25fb713e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("FIlmposter.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FIlmposter.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

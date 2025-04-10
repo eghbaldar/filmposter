@@ -1,4 +1,5 @@
 ﻿using FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster;
+using FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById;
 using FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilmPosters;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,6 @@ namespace FilmPoster.Application.Interfaces.FacadePattern
     {
         public GetFilmPostersService GetFilmPostersService { get; }
         public PostFilmPosterService PostFilmPosterService { get; }
+        public GetFilmPosterByIdService GetFilmPosterByIdService { get; }
     }
 }

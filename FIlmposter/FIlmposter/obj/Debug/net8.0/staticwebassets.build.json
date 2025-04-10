@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vUeCbGdV0tRzcSt6wyXtBSNSsuzIxZFrG0a6qFXS/hc=",
+  "Hash": "qH8YuyAk0aj2F17S3ukJaC3cbXkaYgVDzZP1sUeqCAw=",
   "Source": "FIlmposter",
   "BasePath": "_content/FIlmposter",
   "Mode": "Default",
@@ -18103,6 +18103,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\components\\AdminShowFilmPoster.js"
+    },
+    {
+      "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js",
+      "SourceId": "FIlmposter",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\",
+      "BasePath": "_content/FIlmposter",
+      "RelativePath": "SiteTemplate/js/components/AdminUpdateFilmPoster.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js"
     },
     {
       "Identity": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\count-to.js",

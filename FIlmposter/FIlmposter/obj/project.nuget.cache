@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "30LHePs2Vso=",
+  "dgSpecHash": "ZbgSUc3AKgA=",
   "success": true,
   "projectFilePath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\FIlmposter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kinh\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\awssdk.core\\3.7.402.33\\awssdk.core.3.7.402.33.nupkg.sha512",
+    "C:\\Users\\Kinh\\.nuget\\packages\\mapster\\7.4.2-pre02\\mapster.7.4.2-pre02.nupkg.sha512",
+    "C:\\Users\\Kinh\\.nuget\\packages\\mapster.core\\1.2.3-pre02\\mapster.core.1.2.3-pre02.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
     "C:\\Users\\Kinh\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.8\\microsoft.aspnetcore.components.analyzers.8.0.8.nupkg.sha512",

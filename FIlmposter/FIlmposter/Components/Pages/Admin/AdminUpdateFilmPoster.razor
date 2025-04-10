@@ -1,0 +1,184 @@
+﻿@page "/admin/updatefilmposter/{id}"
+@rendermode InteractiveServer
+@inject HttpClient _http
+@inject IJSRuntime JS
+@inject NavigationManager Navigation // uses to redirect to another component in behind code
+@using FIlmposter.Utilities.Helpers
+@using Filmposter.Common.Constants;
+@using FIlmposter.Layout
+@layout SingleLayout
+
+<HeadContent>
+    <script src="sitetemplate/js/components/adminupdatefilmposter.js"></script>
+</HeadContent>
+
+<PageTitle>ویرایش پوستر فیلم‌ @posterTitle</PageTitle>
+
+@if (isLoading)
+{
+    <div class="text-center my-5">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">در حال بارگذاری...</span>
+        </div>
+        <p class="mt-3">در حال دریافت اطلاعات...</p>
+    </div>
+}
+else
+{
+    if (filmPoster != null)
+    {
+        <EditForm EditContext="editContext">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="filmposter-validation-summary" />
+
+            <div class="card-box">
+                <div class="row mt-3">
+                    <div class="col-8">
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
+                            </div>
+                            <input @ref="titleFaInput" class="@($"{GetFieldClass(nameof(filmPoster.TitleFa))} form-control")"
+                                   id="txtTitleFa"
+                                   @onblur="ValidateField"
+                                   @bind="filmPoster.TitleFa" />
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به انگلیسی</span>
+                            </div>
+                            <input type="text" @bind="filmPoster.TitleEn" class="form-control" id="txtTitleEn" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">کارگردان</span>
+                            </div>
+                            <input @ref="dierctorInput"
+                                   class="@($"{GetFieldClass(nameof(filmPoster.Director))} form-control")"
+                                   id="txtDirector"
+                                   @bind="filmPoster.Director"
+                                   @onblur="ValidateField"
+                                   aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">تهیه کننده</span>
+                            </div>
+                            <input @ref="producerInput"
+                                   class="@($"{GetFieldClass(nameof(filmPoster.Producer))} form-control")"
+                                   @onblur="ValidateField"
+                                   id="txtProducer"
+                                   type="text"
+                                   @bind="filmPoster.Producer" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">خلاصه اثر</span>
+                            </div>
+                            <textarea @ref="summaryInput"
+                                      class="@($"{GetFieldClass(nameof(filmPoster.Summary))} form-control")"
+                                      @onblur="ValidateField"
+                                      @bind="filmPoster.Summary" rows="10" id="txtSummary" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">تاریخ تولید</span>
+                            </div>
+
+                            @* [txtProductionDate] will be set from blazor.razor.cs method & /wwwroot/sitetemplate/js/custom.js
+                    for example check: AdminInsertFilmPoster.razor.cs *@
+
+                            <input id="txtProductionDate" type="text" readonly @bind="filmPoster.ProductionDate" class="form-control shamsidate">
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر</span>
+                            </div>
+                            @* <InputFile @onblur="ValidateField"
+                    class="@($"{GetFieldClass(nameof(filmPoster.Filename))} form-control")"
+                    OnChange="@HandleFileSelected" @bind-value="filmPoster.File" id="filePoster" /> *@
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">گونه فیلم</span>
+                            </div>
+                            <InputSelect @bind-Value="filmPoster.ShortFeature" class="form-select">
+                                <option value="@FilmposterShortFeatureConstants.Short">کوتاه</option>
+                                <option value="@FilmposterShortFeatureConstants.MidLength">نیمه بلند</option>
+                                <option value="@FilmposterShortFeatureConstants.Feature">بلند</option>
+                                <option value="@FilmposterShortFeatureConstants.Series">سریال</option>
+                                <option value="@FilmposterShortFeatureConstants.ScriptCovert">کاور فیلمنامه</option>
+                                <option value="@FilmposterShortFeatureConstants.Theater">تئاتر</option>
+                                <option value="@FilmposterShortFeatureConstants.BookCover">جلد کتاب</option>
+                            </InputSelect>
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
+                            </div>
+                            <InputSelect @bind-Value="filmPoster.Style" class="form-select">
+                                <option value="@FilmposterStyleConstants.Fiction">داستانی</option>
+                                <option value="@FilmposterStyleConstants.Documentary">مستند</option>
+                                <option value="@FilmposterStyleConstants.Animation">انیمیشن</option>
+                                <option value="@FilmposterStyleConstants.Experimental">تجربی</option>
+                            </InputSelect>
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="form-control">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                                    </div>
+                                    هست
+                                    <label class="custom-control border-switch">
+                                        <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
+                                        <span class="border-switch-control-indicator"></span>
+                                    </label>
+                                    نیست
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button @onclick="@(e => SubmitForm())">ویرایش</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card text-center">
+                            <div class="card-header">
+                                تصویر پوستر
+                            </div>
+                            <div class="card-body">
+                                <img class="img-fluid" src=@($"/UploadedStuff/admin/images/admin-filmposter/{filmPoster.File}-thumb.jpg") />
+                                <br/>
+                                <a href="#" class="btn btn-primary">تغییر پوستر</a>
+                            </div>
+                            <div class="card-footer text-muted">                                
+                                @{
+                                    if (filmPoster.UpdateDate.HasValue)
+                                    {
+                                        <span>آخرین بروزرسانی:</span>
+                                        var dateOnly = DateOnly.FromDateTime(filmPoster.UpdateDate.Value);
+                                        @PersianDateTimeHelper.GetShamsiProductionDate(dateOnly)
+                                    }
+                                    else
+                                    {
+                                    <span>بروزرسانی انجام نشده است.</span>
+                                    }
+                                }                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </EditForm>
+    }
+    else
+    {
+        <span>پوستری با این مشخصات وجود ندارد.</span>
+    }
+}
+
+@code {
+    }

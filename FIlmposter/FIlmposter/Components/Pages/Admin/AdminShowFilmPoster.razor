@@ -7,13 +7,13 @@
 @layout SingleLayout
 
 <PageTitle>@CategoryName</PageTitle>
-@if (Category == "adminNationalFilmPosters")
+@if (Category == "nationalFilmPosters")
 {
-    <NavLink href="/admin/insertfilmposter/adminInsertNationalFilmPosters" class="btn btn-primary">درج پوستر فیلم‌ ایرانی</NavLink>
+    <NavLink href="/admin/insertfilmposter/insertNationalFilmPosters" class="btn btn-primary">درج پوستر فیلم‌ ایرانی</NavLink>
 }
-@if (Category == "adminForeignFilmPosters")
+@if (Category == "foreignFilmPosters")
 {
-    <NavLink href="/admin/insertfilmposter/adminInsertForeignFilmPosters" class="btn btn-primary">درج پوستر فیلم خارجی</NavLink>
+    <NavLink href="/admin/insertfilmposter/insertForeignFilmPosters" class="btn btn-primary">درج پوستر فیلم خارجی</NavLink>
 }
 
 @if (isLoading)
@@ -27,7 +27,7 @@
 }
 else
 {
-    @if (Category == "adminNationalFilmPosters")
+    @if (Category == "nationalFilmPosters")
     {
         @if (filmposters == null)
         {
@@ -139,8 +139,11 @@ else
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-left">
-                                                <a class="dropdown-item" href="#">مشاهده</a>
+                                                <NavLink class="nav-link" href="@($"/admin/updatefilmposter/{item.Id}")">
+                                                    ویرایش
+                                                </NavLink>
                                                 <a class="dropdown-item" href="#">حذف</a>
+                                                <a class="dropdown-item" href="#">مشاهده</a>
                                             </div>
                                         </div>
                                     </td>
@@ -152,7 +155,7 @@ else
             </div>
         }
     }
-    else if (Category == "adminForeignFilmPosters")
+    else if (Category == "foreignFilmPosters")
     {
         <PageTitle>@CategoryName</PageTitle>
         @if (filmposters == null)
@@ -265,6 +268,9 @@ else
                                                 </svg>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-left">
+                                                <NavLink class="nav-link" href="@($"/admin/updatefilmposter/{item.Id}")">
+                                                    ویرایش
+                                                </NavLink>
                                                 <a class="dropdown-item" href="#">مشاهده</a>
                                                 <a class="dropdown-item" href="#">حذف</a>
                                             </div>

@@ -31,7 +31,8 @@ namespace FIlmposter.Components.Pages.Admin
             {
                 isLoading = true;
                 StateHasChanged();
-                await Task.Delay(3000);
+                //TODO: delete the following line
+                await Task.Delay(1000);
                 filmposters = await _http.GetFromJsonAsync<ResultGetFilmPostersServiceDto>("/api/FilmPosters");
                 isLoading = false;
                 StateHasChanged();

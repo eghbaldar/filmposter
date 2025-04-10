@@ -1,4 +1,4 @@
-using Filmposter.Infrastructure.MappingProfiles.FilmPosters;
+using Filmposter.Infrastructure.MappingProfiles;
 using Filmposter.Persistence.Contexts;
 using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Interfaces.FacadePattern;
@@ -26,7 +26,10 @@ var ConStr = environment == "Development"
 
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<DataBaseContext>(x => x.UseSqlServer(ConStr));
 // Mapping
-builder.Services.AddAutoMapper(typeof(FilmPostersProfile));
+//Filmposter.Infrastructure.MappingProfiles.FilmPosters.FilmPostersProfile.RegisterMapsterConfiguration(); // Initialize mappings here
+//builder.Services.AddMapster();
+builder.Services.RegisterMapsterConfiguration();
+
 
 // Add CORS services (Necessary)
 var corsPolicyName = "AllowBlazorClient";
