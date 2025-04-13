@@ -27,6 +27,7 @@ namespace FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster
         [Required(ErrorMessage = "فایل پوستر انتخاب نشده است.")]
         public string Filename { get; set; }
         // End of summary
+        public bool FilmPoster { get; set; } // true: it means we designed the poster
 
         public string maxSize { get; set; }
         public bool Foreign { get; set; } // true: foreign false: iranian

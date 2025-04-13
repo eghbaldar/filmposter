@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\wwwroot\\sitetemplate\\js\\components\\adminupdatefilmposter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\wwwroot\\sitetemplate\\js\\components\\adminupdatefilmposter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{275E87EA-6B8E-4865-AF79-94B5D94DDF91}|FilmPoster.Application\\FilmPoster.Application.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter.application\\interfaces\\contexts\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{275E87EA-6B8E-4865-AF79-94B5D94DDF91}|FilmPoster.Application\\FilmPoster.Application.csproj|solutionrelative:filmposter.application\\interfaces\\contexts\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\components\\pages\\admin\\adminupdatefilmposter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\components\\pages\\admin\\adminupdatefilmposter.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{818E64E3-83BB-4F43-8F8C-D7A1EC6829C6}|Filmposter.Persistence\\Filmposter.Persistence.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter.persistence\\contexts\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{818E64E3-83BB-4F43-8F8C-D7A1EC6829C6}|Filmposter.Persistence\\Filmposter.Persistence.csproj|solutionrelative:filmposter.persistence\\contexts\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter\\filmposter\\components\\pages\\admin\\adminupdatefilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{146A88EA-795E-41CD-AF74-28E80B53FD69}|FIlmposter\\FIlmposter\\FIlmposter.csproj|solutionrelative:filmposter\\filmposter\\components\\pages\\admin\\adminupdatefilmposter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A0A38F81-9C25-4FF6-A18F-DA8DDB824B12}|Filmposter.Domain\\Filmposter.Domain.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter.domain\\entities\\financial\\designtariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A38F81-9C25-4FF6-A18F-DA8DDB824B12}|Filmposter.Domain\\Filmposter.Domain.csproj|solutionrelative:filmposter.domain\\entities\\financial\\designtariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283ED09C-96A1-4834-80DB-870071EE1245}|Filmposter.Common\\Filmposter.Common.csproj|d:\\_project_\\filmposter\\filmposter\\filmposter.common\\constants\\designtariffconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283ED09C-96A1-4834-80DB-870071EE1245}|Filmposter.Common\\Filmposter.Common.csproj|solutionrelative:filmposter.common\\constants\\designtariffconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IDataBaseContext.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FilmPoster.Application\\Interfaces\\Contexts\\IDataBaseContext.cs",
+              "RelativeDocumentMoniker": "FilmPoster.Application\\Interfaces\\Contexts\\IDataBaseContext.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FilmPoster.Application\\Interfaces\\Contexts\\IDataBaseContext.cs",
+              "RelativeToolTip": "FilmPoster.Application\\Interfaces\\Contexts\\IDataBaseContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA9wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T12:19:23.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Persistence\\Contexts\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "Filmposter.Persistence\\Contexts\\DataBaseContext.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Persistence\\Contexts\\DataBaseContext.cs",
+              "RelativeToolTip": "Filmposter.Persistence\\Contexts\\DataBaseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T12:19:09.128Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminUpdateFilmPoster.js",
-              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js",
-              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js",
-              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js",
-              "RelativeToolTip": "FIlmposter\\FIlmposter\\wwwroot\\SiteTemplate\\js\\components\\AdminUpdateFilmPoster.js",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-10T14:34:19.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminUpdateFilmPoster.razor.cs",
-              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor.cs",
-              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor.cs",
-              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor.cs",
-              "RelativeToolTip": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAmwIIAAABOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DesignTariffConstants.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Common\\Constants\\DesignTariffConstants.cs",
+              "RelativeDocumentMoniker": "Filmposter.Common\\Constants\\DesignTariffConstants.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Common\\Constants\\DesignTariffConstants.cs",
+              "RelativeToolTip": "Filmposter.Common\\Constants\\DesignTariffConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:43:50.969Z",
+              "WhenOpened": "2025-04-13T12:14:20.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminUpdateFilmPoster.razor",
-              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor",
-              "RelativeDocumentMoniker": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor",
-              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor",
-              "RelativeToolTip": "FIlmposter\\FIlmposter\\Components\\Pages\\Admin\\AdminUpdateFilmPoster.razor",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAJgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:43:20.151Z",
+              "Title": "DesignTariff.cs",
+              "DocumentMoniker": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Domain\\Entities\\Financial\\DesignTariff.cs",
+              "RelativeDocumentMoniker": "Filmposter.Domain\\Entities\\Financial\\DesignTariff.cs",
+              "ToolTip": "D:\\_PROJECT_\\FilmPoster\\FIlmposter\\Filmposter.Domain\\Entities\\Financial\\DesignTariff.cs",
+              "RelativeToolTip": "Filmposter.Domain\\Entities\\Financial\\DesignTariff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T12:09:24.963Z",
               "EditorCaption": ""
             }
           ]

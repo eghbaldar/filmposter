@@ -19,6 +19,8 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\FIlmpo
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\FIlmposter.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\FIlmposter.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Mapster.dll
+D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Mapster.Core.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -74,5 +76,3 @@ D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\refint
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\FIlmposter.pdb
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\FIlmposter.genruntimeconfig.cache
 D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\obj\Debug\net8.0\ref\FIlmposter.dll
-D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Mapster.dll
-D:\_PROJECT_\FilmPoster\FIlmposter\FIlmposter\FIlmposter\bin\Debug\net8.0\Mapster.Core.dll

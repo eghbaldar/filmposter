@@ -63,8 +63,94 @@
         "IsRequired": false
       },
       {
+        "Name": "FilmPoster",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
         "Name": "maxSize",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foreign",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Worth",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortFeature",
+        "Type": "System.Byte",
+        "IsRequired": false
+      },
+      {
+        "Name": "Style",
+        "Type": "System.Byte",
+        "IsRequired": false
+      },
+      {
+        "Name": "Validation",
+        "Type": "System.Byte",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmposter.Server.Controllers.FilmPostersController",
+    "Method": "Put",
+    "RelativePath": "api/FilmPosters",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PosterId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "TitleFa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TitleEn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Slug",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Director",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Producer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Summary",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilmPoster",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionDate",
+        "Type": "System.DateOnly",
         "IsRequired": false
       },
       {
@@ -106,6 +192,42 @@
       {
         "Name": "posterId",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmposter.Server.Controllers.FilmPostersController",
+    "Method": "Put",
+    "RelativePath": "api/FilmPosters/PutFile/{posterId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PosterId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxSize",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "posterId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

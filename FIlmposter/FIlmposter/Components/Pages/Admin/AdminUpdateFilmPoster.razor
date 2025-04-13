@@ -34,6 +34,47 @@ else
             <div class="card-box">
                 <div class="row mt-3">
                     <div class="col-8">
+                        <div class="alert alert-warning" role="alert">
+                            <h4>بخش ادمین</h4>
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="input-group input-group-sm mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">ژانر فیلم</span>
+                                    </div>
+                                    <InputSelect @bind-Value="filmPoster.Validation" class="form-select">
+                                        <option value="@FilmposterValidationConstants.UnderConsideration">در حال بررسی</option>
+                                        <option value="@FilmposterValidationConstants.Valid">تائید</option>
+                                        <option value="@FilmposterValidationConstants.Invalid">رد</option>
+                                    </InputSelect>
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="form-control">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">این فایل توسط تیم ما طراحی شده؟</span>
+                                    </div>
+                                    بلی
+                                    <label class="custom-control border-switch">
+                                        <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.FilmPoster">
+                                        <span class="border-switch-control-indicator"></span>
+                                    </label>
+                                    خیر
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm mb-3">
+                                <div class="form-control">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
+                                    </div>
+                                    هست
+                                    <label class="custom-control border-switch">
+                                        <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
+                                        <span class="border-switch-control-indicator"></span>
+                                    </label>
+                                    نیست
+                                </div>
+                            </div>
+                        </div>
                         <div class="input-group input-group-sm mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">عنوان پوستر به فارسی</span>
@@ -89,14 +130,7 @@ else
                     for example check: AdminInsertFilmPoster.razor.cs *@
 
                             <input id="txtProductionDate" type="text" readonly @bind="filmPoster.ProductionDate" class="form-control shamsidate">
-                        </div>
-                        <div class="input-group input-group-sm mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-sm">فایل پوستر</span>
-                            </div>
-                            @* <InputFile @onblur="ValidateField"
-                    class="@($"{GetFieldClass(nameof(filmPoster.Filename))} form-control")"
-                    OnChange="@HandleFileSelected" @bind-value="filmPoster.File" id="filePoster" /> *@
+
                         </div>
                         <div class="input-group input-group-sm mb-3">
                             <div class="input-group-prepend">
@@ -123,49 +157,37 @@ else
                                 <option value="@FilmposterStyleConstants.Experimental">تجربی</option>
                             </InputSelect>
                         </div>
-                        <div class="alert alert-warning" role="alert">
-                            <div class="input-group input-group-sm mb-3">
-                                <div class="form-control">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroup-sizing-sm">ارزشمندی فایل از نظر هنری</span>
-                                    </div>
-                                    هست
-                                    <label class="custom-control border-switch">
-                                        <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.Worth">
-                                        <span class="border-switch-control-indicator"></span>
-                                    </label>
-                                    نیست
-                                </div>
-                            </div>
-                        </div>
                         <div>
-                            <button @onclick="@(e => SubmitForm())">ویرایش</button>
+                            <button @onclick="@(e => SubmitForm($"{id}"))">ویرایش</button>
                         </div>
                     </div>
                     <div class="col-4">
-
                         <div class="card text-center">
                             <div class="card-header">
                                 تصویر پوستر
                             </div>
                             <div class="card-body">
-                                <img class="img-fluid" src=@($"/UploadedStuff/admin/images/admin-filmposter/{filmPoster.File}-thumb.jpg") />
-                                <br/>
-                                <a href="#" class="btn btn-primary">تغییر پوستر</a>
+                                <img class="img-fluid" id="imgPoster" src=@($"/UploadedStuff/admin/images/admin-filmposter/{filmPoster.File}-thumb.jpg") />
+
+                                <div class="mt-10">
+                                    <button @onclick="@(e=>TriggerFileInput())">تغییر پوستر</button>
+                                </div>
+
+                               <InputFile OnChange="@HandleFileSelected" id="filePosterUpdate" hidden />
+
                             </div>
-                            <div class="card-footer text-muted">                                
-                                @{
-                                    if (filmPoster.UpdateDate.HasValue)
-                                    {
-                                        <span>آخرین بروزرسانی:</span>
-                                        var dateOnly = DateOnly.FromDateTime(filmPoster.UpdateDate.Value);
-                                        @PersianDateTimeHelper.GetShamsiProductionDate(dateOnly)
-                                    }
-                                    else
-                                    {
+
+                            <div class="card-footer text-muted">
+                                @if (filmPoster.UpdateDate.HasValue)
+                                {
+                                    <span>آخرین بروزرسانی:</span>
+                                    var dateOnly = DateOnly.FromDateTime(filmPoster.UpdateDate.Value);
+                                    @PersianDateTimeHelper.GetShamsiProductionDate(dateOnly)
+                                }
+                                else
+                                {
                                     <span>بروزرسانی انجام نشده است.</span>
-                                    }
-                                }                                
+                                }
                             </div>
                         </div>
                     </div>

@@ -541,6 +541,41 @@ namespace Filmposter.Persistence.Migrations
                     b.ToTable("FilmPosters");
                 });
 
+            modelBuilder.Entity("Filmposter.Domain.Entities.Financial.DesignTariff", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("InsertDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LogoTypeTariff")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StaticTariff")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TwoVersion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte>("Type")
+                        .HasColumnType("tinyint");
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DesignTariff");
+                });
+
             modelBuilder.Entity("Filmposter.Domain.Entities.Users.UserLogs", b =>
                 {
                     b.Property<Guid>("Id")

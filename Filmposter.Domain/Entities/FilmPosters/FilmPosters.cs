@@ -24,7 +24,7 @@ namespace Filmposter.Domain.Entities.FilmPosters
         public string File { get; set; }
         public byte ShortFeature { get; set; } // FilmposterShortFeatureConstants.cs
         public byte Style { get; set; }  // FilmposterStyleConstants.cs
-        public byte Validation { get; set; } // 0: under consideration 1: valid 2: invalid
+        public byte Validation { get; set; } // FilmposterValidationConstants.cs
         public bool Worth { get; set; } // true: this poster is worth in our opionin [admin section]
     }
 }

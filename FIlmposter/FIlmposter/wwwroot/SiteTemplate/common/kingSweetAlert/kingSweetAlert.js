@@ -54,7 +54,7 @@ function KingSweetAlertTopRightLoading(message) {
 function KingSweetStop() {
     Swal.close();
 }
-function KingSweetAlertTopRightTimer(message) {
+function KingSweetAlertTopRightTimer(obj) {
     let timerInterval;
     const Toast = Swal.mixin({
         toast: true,
@@ -63,20 +63,23 @@ function KingSweetAlertTopRightTimer(message) {
         timerProgressBar: true,
         timer: 2000,
         didOpen: (toast) => {
-            Swal.showLoading();
             const timer = Swal.getPopup().querySelector("b");
             timerInterval = setInterval(() => {
-                timer.textContent = `${Swal.getTimerLeft()}`;
+                if (timer) {
+                    timer.textContent = Swal.getTimerLeft();
+                }
             }, 100);
         },
         willClose: () => {
-            clearInterval(timerInterval);            
+            clearInterval(timerInterval);
         }
     });
+
     Toast.fire({
-        icon: "success",
-        title: message
+        icon: obj.icon,
+        html: `${obj.message.replace(/^"(.*)"$/, '$1')}`
     });
+
 }
 function KingSweetAlertCenterTimer(object) {
     Swal.fire({

@@ -1,4 +1,6 @@
-﻿namespace FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById
 {
     public class GetFilmPosterByIdServiceDto
     {
@@ -7,11 +9,16 @@
         public string UniqueCode { get; set; } // this unique code is used as a standard url like:filmposter.ir/Ujh56a
         public bool FilmPoster { get; set; } // true: it means we designed the poster
         public bool Foreign { get; set; } // true: foreign false: iranian
+        [Required(ErrorMessage = "عنوان فارسی پوستر الزامی است.")]
         public string TitleFa { get; set; }
         public string? TitleEn { get; set; }
-        public string Slug { get; set; }
+        public string? Slug { get; set; }
+        [Required(ErrorMessage = "نام کامل کارگردان اثر الزامی است.")]
         public string Director { get; set; }
+        [Required(ErrorMessage = "نام کامل تهیه کننده اثر الزامی است.")]
         public string Producer { get; set; }
+        [Required(ErrorMessage = "خلاصه داستان اثر الزامی است.")]
+        [MaxLength(50, ErrorMessage = "خلاصه داستان به اندازه کافی گویا نیست.")]
         public string Summary { get; set; }
         public DateOnly ProductionDate { get; set; }
         public string File { get; set; }

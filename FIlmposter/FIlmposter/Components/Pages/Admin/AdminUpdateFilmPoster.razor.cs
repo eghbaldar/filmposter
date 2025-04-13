@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.JSInterop;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Text.Json;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace FIlmposter.Components.Pages.Admin
@@ -23,6 +24,7 @@ namespace FIlmposter.Components.Pages.Admin
         private GetFilmPosterByIdServiceDto? filmPoster = new(); // the Request Dto to Post the values of fields
         private string? responseMessage;
         private bool isLoading = true;
+        private bool shouldReInitDatePicker; // I use this proerpty to remain the Shamsidate after being changed!
 
         #endregion
 
@@ -38,9 +40,47 @@ namespace FIlmposter.Components.Pages.Admin
                 fileValidation = false;
                 return;
             }
-            //filmPoster.Filename = selectedFile.Name;
-            //editContext?.NotifyFieldChanged(editContext.Field(nameof(filmPoster.Filename)));
-            editContext?.NotifyValidationStateChanged();
+            // upload a new poster
+            var multipart = new MultipartFormDataContent();
+            multipart.Add(new StringContent("1250000"), "maxSize");            
+            if (selectedFile != null) // Add the file if selected
+            {
+                var fileStreamContent = new StreamContent(selectedFile.OpenReadStream(25 * 1024 * 1024));
+                fileStreamContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
+                multipart.Add(fileStreamContent, "File", selectedFile.Name); // Name must match DTO property
+            }
+            var response = await _http.PutAsync($"/api/FilmPosters/PutFile/{filmPoster.Id}", multipart);
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = await response.Content.ReadAsStringAsync();
+                var root = JsonDocument.Parse(jsonString).RootElement;
+                if (root.TryGetProperty("isSuccess", out var isSuccessProp) && isSuccessProp.GetBoolean())
+                {
+                    await JS.InvokeVoidAsync("KingSweetAlertTopRightTimer", new
+                    {
+                        message = "پوستر با موفقیت تغییر کرد.",
+                        icon = "success",
+                    });
+                    await JS.InvokeVoidAsync("ChangeTheNewPoster", $"/UploadedStuff/admin/images/admin-filmposter/{root.GetProperty("message")}-thumb.jpg");
+                }
+                else
+                {
+                    await JS.InvokeVoidAsync("KingSweetAlertTopRightTimer", new
+                    {
+                        message = root.GetProperty("message"),
+                        icon = "warning",
+                    });
+                }
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Process failed by APi: {error}");
+            }
+        }
+        private async Task TriggerFileInput()
+        {
+            await JS.InvokeVoidAsync("openFileBrowser");
         }
         #endregion
 
@@ -64,27 +104,22 @@ namespace FIlmposter.Components.Pages.Admin
             // Create an array of ElementReferences for invalid fields
             var invalidElements = new List<ElementReference>();
 
-            //if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.TitleFa))).Any())
-            //{
-            //    invalidElements.Add(titleFaInput);
-            //}
-            //if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Director))).Any())
-            //{
-            //    invalidElements.Add(dierctorInput);
-            //}
-            //if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Producer))).Any())
-            //{
-            //    invalidElements.Add(producerInput);
-            //}
-            //if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Summary))).Any())
-            //{
-            //    invalidElements.Add(summaryInput);
-            //}
-            if (!fileValidation)
+            if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.TitleFa))).Any())
             {
-                invalidElements.Add(summaryInput); // I used again from "summaryInput" becase I can't set "ref" attribute on <InputFile>
+                invalidElements.Add(titleFaInput);
             }
-
+            if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Director))).Any())
+            {
+                invalidElements.Add(dierctorInput);
+            }
+            if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Producer))).Any())
+            {
+                invalidElements.Add(producerInput);
+            }
+            if (editContext.GetValidationMessages(editContext.Field(nameof(filmPoster.Summary))).Any())
+            {
+                invalidElements.Add(summaryInput);
+            }
             // Pass the array of invalid ElementReferences to JavaScript for scrolling
             if (invalidElements.Any())
             {
@@ -105,6 +140,7 @@ namespace FIlmposter.Components.Pages.Admin
             await JS.InvokeVoidAsync("KingSweetAlertTopRightTimer", new
             {
                 message = "ویرایش با موفقیت انجام شد.",
+                icon = "info",
             });
         }
         private void ValidateField()
@@ -115,7 +151,6 @@ namespace FIlmposter.Components.Pages.Admin
 
         protected override async Task OnInitializedAsync()
         {
-            editContext = new EditContext(filmPoster);
             if (ParentLayout != null) ParentLayout.UpdateTitle(posterTitle);
         }
         protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -125,7 +160,7 @@ namespace FIlmposter.Components.Pages.Admin
                 isLoading = true;
                 StateHasChanged();
                 //TODO: delete the following line
-                await Task.Delay(1000);
+                await Task.Delay(500);
                 // fetch the data
                 //TODO: send the userId to check whether s/she is a right person to modify this filmposter or not (is it owner?)
                 //TODO: of course, the ADMINs are exceptional for this action!
@@ -138,17 +173,26 @@ namespace FIlmposter.Components.Pages.Admin
                 else
                 {
                     filmPoster = null;
-                }
-                isLoading = false;
+                }                
+                isLoading = false;                
+                editContext = new EditContext(filmPoster);                
                 StateHasChanged();
-                // the following line must be added at the end of the process
+                // the following line must be added at the end of the process                
                 await JS.InvokeVoidAsync("initializePersianDatePicker");
             }
+            else
+            {
+                if (shouldReInitDatePicker)
+                {
+                    await JS.InvokeVoidAsync("setShamsiProductionDate", filmPoster.ProductionDate.ToString("yyyy-MM-dd"));
+                    shouldReInitDatePicker = false;
+                }
+            }
         }
-        private async Task SubmitForm()
+        private async Task SubmitForm(string posterId)
         {
             // check validation
-            if (!editContext.Validate() || !fileValidation) await CheckValidation();
+            if (!editContext.Validate()) await CheckValidation();
             else
             {
                 // process ...
@@ -159,35 +203,47 @@ namespace FIlmposter.Components.Pages.Admin
                     var multipart = new MultipartFormDataContent();
 
                     // Add all fields as key-value pairs
-                    //multipart.Add(new StringContent(filmPoster.TitleFa ?? ""), "TitleFa");
-                    //multipart.Add(new StringContent(filmPoster.TitleEn ?? ""), "TitleEn");
-                    //multipart.Add(new StringContent(filmPoster.Director ?? ""), "Director");
-                    //multipart.Add(new StringContent(filmPoster.Producer ?? ""), "Producer");
-                    //multipart.Add(new StringContent(filmPoster.Summary ?? ""), "Summary");
-                    //multipart.Add(new StringContent(filmPoster.Worth.ToString()), "Worth");
-                    //multipart.Add(new StringContent(filmPoster.ShortFeature.ToString()), "ShortFeature");
-                    //multipart.Add(new StringContent(filmPoster.Style.ToString()), "Style");
-                    //multipart.Add(new StringContent(filmPoster.Validation.ToString()), "Validation");
-                    //multipart.Add(new StringContent(filmPoster.Filename.ToString()), "Filename");
-                    //multipart.Add(new StringContent("1250000"), "maxSize");
+                    multipart.Add(new StringContent(posterId.ToString() ?? ""), "PosterId");
+                    multipart.Add(new StringContent(filmPoster.TitleFa ?? ""), "TitleFa");
+                    multipart.Add(new StringContent(filmPoster.TitleEn ?? ""), "TitleEn");
+                    multipart.Add(new StringContent(filmPoster.Director ?? ""), "Director");
+                    multipart.Add(new StringContent(filmPoster.Producer ?? ""), "Producer");
+                    multipart.Add(new StringContent(filmPoster.Summary ?? ""), "Summary");
+                    multipart.Add(new StringContent(filmPoster.Worth.ToString()), "Worth");
+                    multipart.Add(new StringContent(filmPoster.ShortFeature.ToString()), "ShortFeature");
+                    multipart.Add(new StringContent(filmPoster.Style.ToString()), "Style");
+                    multipart.Add(new StringContent(filmPoster.Validation.ToString()), "Validation");
+                    multipart.Add(new StringContent(filmPoster.FilmPoster.ToString()), "FilmPoster");
+                    
 
-                    //var gregorianDateStr = await JS.InvokeAsync<string>("getGregorianProductionDate");
-                    //filmPoster.ProductionDate = DateOnly.ParseExact(gregorianDateStr, "yyyy-MM-dd");
-                    //multipart.Add(new StringContent(filmPoster.ProductionDate.ToString("yyyy-MM-dd")), "ProductionDate");
+                    var gregorianDateStr = await JS.InvokeAsync<string>("getGregorianProductionDate");
+                    filmPoster.ProductionDate = DateOnly.ParseExact(gregorianDateStr, "yyyy-MM-dd");
+                    multipart.Add(new StringContent(filmPoster.ProductionDate.ToString("yyyy-MM-dd")), "ProductionDate");
 
 
-                    // Add the file if selected
-                    if (selectedFile != null)
-                    {
-                        var fileStreamContent = new StreamContent(selectedFile.OpenReadStream(25 * 1024 * 1024));
-                        fileStreamContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
-                        multipart.Add(fileStreamContent, "File", selectedFile.Name); // Name must match DTO property
-                    }
 
-                    var response = await _http.PostAsync("/api/FilmPosters", multipart);
-
+                    var response = await _http.PutAsync("/api/FilmPosters", multipart);
                     if (response.IsSuccessStatusCode)
-                    {                        
+                    {
+                        var jsonString = await response.Content.ReadAsStringAsync();
+                        var root = JsonDocument.Parse(jsonString).RootElement;
+                        if (root.TryGetProperty("isSuccess", out var isSuccessProp) && isSuccessProp.GetBoolean())
+                        {
+                            await JS.InvokeVoidAsync("KingSweetAlertTopRightTimer", new
+                            {
+                                message = "اطلاعات با موفقیت تغییر کرد.",
+                                icon = "success",
+                            });
+                        }
+                        else
+                        {
+                            await JS.InvokeVoidAsync("KingSweetAlertTopRightTimer", new
+                            {
+                                message = root.GetProperty("message"),
+                                icon = "warning",
+                            });
+                        }
+                        shouldReInitDatePicker = true;
                     }
                     else
                     {

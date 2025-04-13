@@ -3,6 +3,7 @@ using Filmposter.Domain.Entities.Contact;
 using Filmposter.Domain.Entities.Designs;
 using Filmposter.Domain.Entities.Festival;
 using Filmposter.Domain.Entities.FilmPosters;
+using Filmposter.Domain.Entities.Financial;
 using Filmposter.Domain.Entities.Users;
 using FilmPoster.Application.Interfaces.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -37,6 +38,7 @@ namespace Filmposter.Persistence.Contexts
         public DbSet<FestivalSubmissions> FestivalSubmissions { get; set; }
         public DbSet<Designs> Designs { get; set; }
         public DbSet<DesignFiles> DesignFiles { get; set; }
+        public DbSet<DesignTariff> DesignTariff { get; set; }
 
         // User Entities
         public DbSet<Users> Users { get; set; }

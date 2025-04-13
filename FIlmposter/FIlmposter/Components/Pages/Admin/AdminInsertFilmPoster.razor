@@ -133,13 +133,28 @@ else if (Category == "adminInsertForeignFilmPosters")
                             نیست
                         </div>
                     </div>
+                </div>                
+                <div class="alert alert-warning" role="alert">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="form-control">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">این فایل توسط تیم ما طراحی شده؟</span>
+                            </div>
+                            بلی
+                            <label class="custom-control border-switch">
+                                <input type="checkbox" id="chkGenrePureDrama" class="border-switch-control-input chkWorth" @bind="filmPoster.FilmPoster">
+                                <span class="border-switch-control-indicator"></span>
+                            </label>
+                            خیر
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    @if (Category == "adminInsertNationalFilmPosters")
+                    @if (Category == "insertNationalFilmPosters")
                     {
                         <button @onclick="@(e => SubmitForm("insert","national"))">Check</button>
                     }
-                    else if (Category == "adminInsertForeignFilmPosters")
+                    else if (Category == "insertForeignFilmPosters")
                     {
                         <button @onclick="@(e => SubmitForm("insert","foreign"))">Check</button>
                     }                    

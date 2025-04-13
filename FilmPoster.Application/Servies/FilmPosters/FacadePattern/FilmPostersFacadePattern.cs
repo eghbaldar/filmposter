@@ -1,6 +1,8 @@
 ﻿using FilmPoster.Application.Interfaces.Contexts;
 using FilmPoster.Application.Interfaces.FacadePattern;
 using FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster;
+using FilmPoster.Application.Servies.FilmPosters.Commands.UpdateFilmPosterFile;
+using FilmPoster.Application.Servies.FilmPosters.Commands.UpdateFilmPosterInformation;
 using FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById;
 using FilmPoster.Application.Servies.NationFilmPosters.Queries.GetNationFilmPosters;
 using MapsterMapper;
@@ -41,6 +43,18 @@ namespace FilmPoster.Application.Servies.FilmPosters.FacadePattern
         public GetFilmPosterByIdService GetFilmPosterByIdService
         {
             get { return _getFilmPosterByIdService = _getFilmPosterByIdService ?? new GetFilmPosterByIdService(_context); }
+        }
+        //Get FilmPosterByIdService
+        public UpdateFilmPosterInformationService _updateFilmPosterInformationService;
+        public UpdateFilmPosterInformationService UpdateFilmPosterInformationService
+        {
+            get { return _updateFilmPosterInformationService = _updateFilmPosterInformationService ?? new UpdateFilmPosterInformationService(_context); }
+        }
+        // Update FilmPosterFileService
+        public UpdateFilmPosterFileService _updateFilmPosterFileService;
+        public UpdateFilmPosterFileService UpdateFilmPosterFileService
+        {
+            get { return _updateFilmPosterFileService = _updateFilmPosterFileService ?? new UpdateFilmPosterFileService(_context,_configuration); }
         }
     }
 }

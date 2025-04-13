@@ -1,5 +1,7 @@
 ﻿using FilmPoster.Application.Interfaces.FacadePattern;
 using FilmPoster.Application.Servies.FilmPosters.Commands.PostFilmPoster;
+using FilmPoster.Application.Servies.FilmPosters.Commands.UpdateFilmPosterFile;
+using FilmPoster.Application.Servies.FilmPosters.Commands.UpdateFilmPosterInformation;
 using FilmPoster.Application.Servies.FilmPosters.Queries.GetFilmPosterById;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.CodeAnalysis;
@@ -37,6 +39,25 @@ namespace Filmposter.Server.Controllers
             if (model == null) return BadRequest("Form data is missing");
 
             var result = await _filmPostersFacade.PostFilmPosterService.Execute(model);
+            return Json(result);
+        }
+        [HttpPut]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Put([FromForm] RequestUpdateFilmPosterInformationServiceDto model)
+        {
+            if (model == null) return BadRequest("Form data is missing");
+
+            var result = await _filmPostersFacade.UpdateFilmPosterInformationService.Execute(model);
+            return Json(result);
+        }
+        [HttpPut]
+        [Consumes("multipart/form-data")]
+        [Route("PutFile/{posterId}")]
+        public async Task<IActionResult> Put([FromForm] RequestUpdateFilmPosterFileServiceDto model,string posterId)
+        {
+            if (model == null) return BadRequest("Form data is missing");
+            model.PosterId = Guid.Parse(posterId);
+            var result = await _filmPostersFacade.UpdateFilmPosterFileService.Execute(model);
             return Json(result);
         }
     }
